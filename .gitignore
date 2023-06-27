@@ -9,7 +9,7 @@
 .cache-loader
 
 # Misc
-/.vscode/
+# LA_TODO /.vscode/
 .DS_Store
 .env.local
 .env.development.local
