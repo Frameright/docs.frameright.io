@@ -97,7 +97,11 @@ const config = {
               },
               {
                 label: 'React Component',
-                to: '/docs/react-component',
+                to: '/docs/category/react-component',
+              },
+              {
+                label: 'Web Component',
+                to: '/docs/category/web-component',
               },
             ],
           },
