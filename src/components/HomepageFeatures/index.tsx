@@ -1,5 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
+
 import styles from './styles.module.css';
 
 type FeatureItem = {
@@ -10,32 +12,33 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Define regions in your images',
     Svg: require('@site/static/img/feature_crop.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Use the <Link href="https://frameright.app">Frameright App</Link> to
+        define regions in your images' metadata.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/feature_graph.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
+    title: 'Add our components to your websites',
     Svg: require('@site/static/img/feature_stack.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Our components extend <code>&lt;img&gt;</code>-like elements to
+        responsively display the best fitting region based on the current
+        element size and ratio.
+      </>
+    ),
+  },
+  {
+    title: 'Stop caring',
+    Svg: require('@site/static/img/feature_graph.svg').default,
+    description: (
+      <>
+        Stop caring about where your images end up in your responsive layout and
+        which ratio they get.
       </>
     ),
   },
