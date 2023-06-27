@@ -134,6 +134,13 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      colorMode: {
+        // Disable dark mode for now because our `feature_*.svg` images don't
+        // look good in this mode. See
+        // https://docusaurus.io/docs/api/themes/configuration#color-mode---dark-mode
+        defaultMode: 'light',
+        disableSwitch: true,
+      },
     }),
 };
 
