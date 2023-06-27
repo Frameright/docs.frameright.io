@@ -46,12 +46,6 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: `https://github.com/${githubOrgName}/${githubProjectName}/tree/main/`,
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: `https://github.com/${githubOrgName}/${githubProjectName}/tree/main/`,
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -77,7 +71,11 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            href: 'https://www.frameright.io/blog',
+            label: 'Blog',
+            position: 'left',
+          },
           {
             href: 'https://frameright.io/about',
             label: 'About us',
@@ -123,10 +121,6 @@ const config = {
                 href: 'https://github.com/frameright',
               },
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'Twitter',
                 href: 'https://twitter.com/getframeright',
               },
@@ -148,6 +142,14 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'Frameright App',
+                href: 'https://frameright.app',
+              },
+              {
+                label: 'Blog',
+                href: 'https://frameright.io/blog',
+              },
+              {
                 label: 'About us',
                 href: 'https://frameright.io/about',
               },
@@ -158,10 +160,6 @@ const config = {
               {
                 label: 'Careers',
                 href: 'https://wellfound.com/company/frameright',
-              },
-              {
-                label: 'Frameright App',
-                href: 'https://frameright.app',
               },
             ],
           },
