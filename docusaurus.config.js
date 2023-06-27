@@ -79,6 +79,16 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
+            href: 'https://frameright.io/about',
+            label: 'About us',
+            position: 'left',
+          },
+          {
+            href: 'https://frameright.app',
+            label: 'Frameright App',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/frameright',
             label: 'GitHub',
             position: 'right',
@@ -109,16 +119,28 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/frameright',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Blog',
+                to: '/blog',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/getframeright',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/frameright',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/getframeright/',
+              },
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/Frameright/',
               },
             ],
           },
@@ -126,12 +148,20 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'About us',
+                href: 'https://frameright.io/about',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/frameright',
+                label: 'Contact us',
+                href: 'https://www.frameright.io/contact',
+              },
+              {
+                label: 'Careers',
+                href: 'https://wellfound.com/company/frameright',
+              },
+              {
+                label: 'Frameright App',
+                href: 'https://frameright.app',
               },
             ],
           },
