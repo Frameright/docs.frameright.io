@@ -101,23 +101,23 @@ const config = {
             items: [
               {
                 label: 'Overview',
-                to: '/docs/overview',
+                to: '/docs',
               },
               {
                 label: 'React Component',
-                to: '/docs/react-component/overview',
+                to: '/docs/react-component',
               },
               {
                 label: 'Web Component',
-                to: '/docs/web-component/overview',
+                to: '/docs/web-component',
               },
               {
                 label: 'JavaScript Library',
-                to: '/docs/javascript-library/overview',
+                to: '/docs/javascript-library',
               },
               {
                 label: 'PHP Library',
-                to: '/docs/php-library/overview',
+                to: '/docs/php-library',
               },
             ],
           },
