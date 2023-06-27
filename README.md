@@ -1,41 +1,18 @@
-# Website
+[<img src="https://avatars.githubusercontent.com/u/35964478?s=200&v=4" align="left" width="64" height="64">](https://frameright.io)
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+# Frameright's documentation
 
-### Installation
+This is the developer documentation portal covering Frameright's projects, built
+with [Docusaurus](https://docusaurus.io/).
 
-```
-$ yarn
-```
+It is served at https://docs.frameright.io with
+[Netlify](https://www.netlify.com/).
 
-### Local Development
+You can also serve it locally with e.g.
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+```bash
+npm install
+npm start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+&emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
