@@ -105,11 +105,19 @@ const config = {
               },
               {
                 label: 'React Component',
-                to: '/docs/category/react-component',
+                to: '/docs/react-component/overview',
               },
               {
                 label: 'Web Component',
-                to: '/docs/category/web-component',
+                to: '/docs/web-component/overview',
+              },
+              {
+                label: 'JavaScript Library',
+                to: '/docs/javascript-library/overview',
+              },
+              {
+                label: 'PHP Library',
+                to: '/docs/php-library/overview',
               },
             ],
           },

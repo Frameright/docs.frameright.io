@@ -1,0 +1,8 @@
+{
+  "label": "PHP Library",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "An easy way to retrieve Image Display Control metadata out of images."
+  }
+}
