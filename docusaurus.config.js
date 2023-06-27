@@ -125,8 +125,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/frameright',
+                label: 'GitHub Discussions',
+                href: 'https://github.com/Frameright/react-image-display-control/discussions',
               },
               {
                 label: 'Twitter',
