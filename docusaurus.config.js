@@ -95,6 +95,10 @@ const config = {
                 label: 'Overview',
                 to: '/docs/overview',
               },
+              {
+                label: 'React Component',
+                to: '/docs/react-component',
+              },
             ],
           },
           {
