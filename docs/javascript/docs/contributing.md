@@ -60,7 +60,7 @@ Also update the examples to use the new version number:
 ### Changelog
 
 Describe the changes made compared to the last released version in the
-[changelog](changelog.md). Browse the git history to make sure nothing has been
+[changelog](changelog). Browse the git history to make sure nothing has been
 left out.
 
 ### Update `package-lock.json`

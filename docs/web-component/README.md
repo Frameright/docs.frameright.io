@@ -183,7 +183,7 @@ or get it from a
 ```
 
 &emsp; :floppy_disk:
-[Importing in your project](https://github.com/Frameright/image-display-control-web-component/blob/main/image-display-control/docs/explanation/importing.md)
+[Importing in your project](importing)
 
 ### Usage
 
@@ -224,12 +224,6 @@ or get it from a
 
 ![Demo](/img/web-component/demo.gif)
 
-&emsp; :sparkles: [Local demo](https://github.com/Frameright/image-display-control-web-component/blob/main/image-display-control/demo/)
-
-&emsp; :wrench: [Contributing](https://github.com/Frameright/image-display-control-web-component/blob/main/image-display-control/docs/contributing.md)
-
-&emsp; 📝 [Changelog](https://github.com/Frameright/image-display-control-web-component/blob/main/image-display-control/docs/reference/changelog.md)
-
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
 &emsp; :sparkles: [Live mobile demo](https://webc.frameright.io)
@@ -250,4 +244,4 @@ From scratch the web component should work on:
 
 More support can be achieved with a few tweaks:
 
-&emsp; :mag: [Browser support](https://github.com/Frameright/image-display-control-web-component/blob/main/image-display-control/docs/explanation/browsers.md)
+&emsp; :mag: [Browser support](browsers)

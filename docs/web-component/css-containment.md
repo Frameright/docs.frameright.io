@@ -20,5 +20,5 @@ causes an overflow and thus unwanted scrollbars.
 
 To prevent this, the web component sets `contain: paint;` on its parent element
 by default. This may not be supported on older browsers and you can tweak this
-behavior. See [Browser support](browsers.md) and
+behavior. See [Browser support](browsers) and
 [Attribute reference](attribute-ref) for more details.

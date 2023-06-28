@@ -7,15 +7,14 @@ WARNING: Bits of information here are duplicated in several places:
 Make sure to keep them in sync.
 -->
 
-Run me with:
+Run the local demo with:
 
 ```bash
-cd ../
 npm install
 npm start
 ```
 
-![Demo](https://docs.frameright.io/img/web-component/demo.gif)
+![Demo](/img/web-component/demo.gif)
 
 &emsp; :sparkles: [Live mobile demo](https://webc.frameright.io)
 

@@ -91,8 +91,8 @@ composer lint
 Choose the next version number according to the rules of
 [Semantic Versioning](https://semver.org/) and set it in the following files:
 
-- [frameright.php](../frameright.php#L8)
-- [readme.txt](../readme.txt#L9)
+- `frameright.php`
+- `readme.txt`
 
 > **NOTES**:
 >
@@ -104,8 +104,8 @@ Choose the next version number according to the rules of
 
 Describe the changes made compared to the last released version in:
 
-- [the changelog served on the WordPress Plugin Directory](../readme.txt),
-- [the changelog in the documentation](../docs/changelog.md).
+- [the changelog served on the WordPress Plugin Directory](https://github.com/Frameright/image-display-control-wordpress/blob/master/readme.txt),
+- [the changelog in the documentation](changelog).
 
 Browse the git history to make sure nothing has been left out.
 

@@ -49,5 +49,5 @@ Even if the browser does not support the `contain` CSS property, it is possible
 to make use of the web component by telling it what to do instead when this
 browser feature isn't available. This can be done by setting the
 `data-css-contain-fallback=` HTML attribute. See
-[CSS containment](css-containment.md) and the
+[CSS containment](css-containment) and the
 [Attribute reference](attribute-ref) for more information.

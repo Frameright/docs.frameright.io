@@ -104,7 +104,7 @@ The usual ways of styling the `<img>`-like children are supported, e.g.
 `width:`, `border:`, `padding:`, etc. However some CSS properties have
 limitations due to the underlying web component's implementation. See the web
 component's CSS styling
-[documentation](https://github.com/Frameright/image-display-control-web-component/blob/main/image-display-control/docs/explanation/styling.md) for more details.
+[documentation](/web-component/styling) for more details.
 
 ## HTML and CSS sizing
 

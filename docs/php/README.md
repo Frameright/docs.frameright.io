@@ -60,13 +60,7 @@ with the following `composer.json`:
 
 ## Usage
 
-&emsp; :sparkles: [Getting started](docs/01_Getting_Started.md)
-
-&emsp; :wrench: [Contributing](docs/02_Contributing.md)
-
 &emsp; :memo: [Tutorial](https://www.frameright.io/post/metadata-in-php)
-
-&emsp; 📝 [Changelog](docs/03_Changelog.md)
 
 ### Get metadata
 

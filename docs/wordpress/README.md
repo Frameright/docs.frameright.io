@@ -65,11 +65,3 @@ Region_ metadata and replaces them on the front-end with a
 [web component](https://github.com/Frameright/image-display-control-web-component)
 automatically zooming on the best suited _Image Region_, effectively
 doing better than a classical middle-crop.
-
-&emsp; :airplane: [Usage](docs/usage.md)
-
-&emsp; :wrench: [Contributing](docs/contributing.md)
-
-&emsp; 📝 [Changelog](docs/changelog.md)
-
-&emsp; 🙏 [Dependency tree / credits](docs/credits.md)

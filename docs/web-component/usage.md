@@ -2,7 +2,7 @@
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
-A comprehensive demo is available at [`../demo/`](../demo/), covering various
+A comprehensive demo is available under [`demo/`](demo), covering various
 aspects of the web component. A typical example could look like this:
 
 ```html
@@ -98,7 +98,7 @@ See [HTML attributes](html-attrs) for more details.
 The usual ways of styling an `<img>` element are supported, e.g. `width:`,
 `border:`, `padding:`, etc.
 
-See [CSS styling](explanation/styling.md) for more details.
+See [CSS styling](styling) for more details.
 
 ## HTML and CSS sizing
 
@@ -116,4 +116,4 @@ See [CSS styling](explanation/styling.md) for more details.
 The web component would typically be bundled inside your web app project, using
 e.g. [Webpack](https://webpack.js.org/) or [Rollup](https://rollupjs.org/).
 
-See [Importing in your project](explanation/importing.md) for more details.
+See [Importing in your project](importing) for more details.

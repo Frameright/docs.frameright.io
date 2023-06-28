@@ -50,6 +50,6 @@ the web component sets CSS `contain: paint;` on its parent element.
 
 On older browsers and depending on the `data-disabled=` and
 `data-css-contain-fallback=` HTML attributes it may set `overflow: hidden;` on
-its parent element instead. See [CSS containment](css-containment.md),
-[Browser support](browsers.md) and
+its parent element instead. See [CSS containment](css-containment),
+[Browser support](browsers) and
 [Attribute reference](attribute-ref) for more details.

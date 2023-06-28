@@ -10,7 +10,7 @@ tags:
 
 Any [Node.js](https://nodejs.org/en)-based, [React](https://react.dev/)-based
 bundled environment, with or without
-[server-side rendering](https://github.com/Frameright/react-image-display-control/blob/main/docs/explanation/ssr.md),
+[server-side rendering](ssr),
 should be supported. We have validated:
 
 - [Vite](https://vitejs.dev/) 4.3.2,
@@ -46,4 +46,4 @@ are supported:
 
 More support can be achieved with a few tweaks:
 
-&emsp; :mag: [Browser support](https://github.com/Frameright/image-display-control-web-component/blob/main/image-display-control/docs/explanation/browsers.md)
+&emsp; :mag: [Browser support](/web-component/browsers)

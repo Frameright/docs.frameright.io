@@ -53,7 +53,7 @@ like a standard `<img>` tag with `object-fit: cover`, you can set this attribute
 to `data-image-region-id="<no region>"`. This is roughly the same as setting
 `data-disabled="all"`, although the CSS containment will still be applied.
 
-See [CSS containment](../explanation/css-containment.md) for more information.
+See [CSS containment](css-containment) for more information.
 
 ## `data-avoid-no-region=`
 
@@ -88,8 +88,8 @@ Supported values:
 - `force`: Even if the browser is known not to support `contain: paint;`, set
   it anyway.
 
-See [Browser support](../explanation/browsers.md) and
-[CSS containment](../explanation/css-containment.md) for more information.
+See [Browser support](browsers) and
+[CSS containment](css-containment) for more information.
 
 ## `data-disabled=`
 
@@ -105,8 +105,8 @@ Supported values:
   as if this feature wasn't supported by the browser and follow the fallback
   behavior set by the `data-css-contain-fallback=` attribute.
 
-See [Browser support](../explanation/browsers.md) and
-[CSS containment](../explanation/css-containment.md) for more information.
+See [Browser support](browsers) and
+[CSS containment](css-containment) for more information.
 
 ## `data-loglevel=`
 

@@ -113,10 +113,6 @@ with JPEG, PNG, and WebP images.
 
 &emsp; :scroll: [Reference](https://github.com/Frameright/image-display-control-metadata-parser/blob/main/generated-docs/classes/Parser.md)
 
-&emsp; :wrench: [Contributing](https://github.com/Frameright/image-display-control-metadata-parser/blob/main/docs/contributing.md)
-
-&emsp; 📝 [Changelog](https://github.com/Frameright/image-display-control-metadata-parser/blob/main/docs/changelog.md)
-
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
 ### Directly in a browser
