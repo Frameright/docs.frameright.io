@@ -1,3 +1,9 @@
+---
+sidebar_position: 20
+tags:
+  - howto
+---
+
 # Contributing
 
 ## Validating

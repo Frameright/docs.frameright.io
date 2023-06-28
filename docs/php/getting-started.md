@@ -1,3 +1,9 @@
+---
+sidebar_position: 10
+tags:
+  - explanation
+---
+
 # Getting Started
 
 &emsp; :memo: [Tutorial](https://www.frameright.io/post/metadata-in-php)
