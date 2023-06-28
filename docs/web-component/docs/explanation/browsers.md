@@ -2,16 +2,6 @@
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
-## Table of Contents
-
-<!-- toc -->
-
-- [Overview](#overview)
-- [`ResizeObserver` polyfill](#resizeobserver-polyfill)
-- [Missing CSS `contain`](#missing-css-contain)
-
-<!-- tocstop -->
-
 ## Overview
 
 The web component relies on a few browser features, the most recently

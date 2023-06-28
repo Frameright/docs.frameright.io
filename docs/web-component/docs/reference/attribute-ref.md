@@ -5,20 +5,6 @@ For a more high-level overview of the attributes, see the
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
-## Table of Contents
-
-<!-- toc -->
-
-- [`data-image-regions=`](#data-image-regions)
-- [`data-image-region-id=`](#data-image-region-id)
-- [`data-avoid-no-region=`](#data-avoid-no-region)
-- [`data-css-contain-fallback=`](#data-css-contain-fallback)
-- [`data-disabled=`](#data-disabled)
-- [`data-loglevel=`](#data-loglevel)
-- [`data-debug-draw-regions=`](#data-debug-draw-regions)
-
-<!-- tocstop -->
-
 ## `data-image-regions=`
 
 Type: string.

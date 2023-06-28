@@ -8,15 +8,6 @@ tags:
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
 
-## Table of Contents
-
-<!-- toc -->
-
-- [Inside a Node.js-based project](#inside-a-nodejs-based-project)
-  - [Inside a Next.js project](#inside-a-nextjs-project)
-
-<!-- tocstop -->
-
 ## Inside a Node.js-based project
 
 You can add the React component to your [Node.js](https://nodejs.org/en)-based

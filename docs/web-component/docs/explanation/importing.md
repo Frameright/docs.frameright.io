@@ -2,18 +2,6 @@
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
-## Table of Contents
-
-<!-- toc -->
-
-- [From a CDN](#from-a-cdn)
-- [Inside a project with a bundler](#inside-a-project-with-a-bundler)
-  * [Inside a Vite project](#inside-a-vite-project)
-    + [With SSR](#with-ssr)
-  * [Inside a Next.js project](#inside-a-nextjs-project)
-
-<!-- tocstop -->
-
 ## From a CDN
 
 If you just want to quickly try out the web component, you can get it from a
@@ -89,7 +77,7 @@ npm install @frameright/image-display-control-web-component
 and then import it in your front-end code with:
 
 ```js
-import "@frameright/image-display-control-web-component/image-display-control.js";
+import '@frameright/image-display-control-web-component/image-display-control.js';
 ```
 
 [This React component](https://github.com/Frameright/react-image-display-control/blob/main/src/index.tsx)
@@ -165,5 +153,6 @@ export default function MyPage() {
 ```
 
 See also:
-* https://stackoverflow.com/questions/68638339/how-come-my-nextjs-public-script-wont-get-bundled/76183248#76183248
-* https://stackoverflow.com/questions/65906449/how-to-add-custom-scripts-bundle-in-nextjs#comment134349556_65906708
+
+- https://stackoverflow.com/questions/68638339/how-come-my-nextjs-public-script-wont-get-bundled/76183248#76183248
+- https://stackoverflow.com/questions/65906449/how-to-add-custom-scripts-bundle-in-nextjs#comment134349556_65906708

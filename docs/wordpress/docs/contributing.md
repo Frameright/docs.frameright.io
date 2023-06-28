@@ -1,28 +1,5 @@
 # Contributing
 
-## Table of Contents
-
-<!-- toc -->
-
-- [:floppy_disk: Code formatting](#floppy_disk-code-formatting)
-- [:memo: Validating](#memo-validating)
-  * [Running the unit tests](#running-the-unit-tests)
-    + [Setting up PHPUnit](#setting-up-phpunit)
-    + [Running PHPUnit](#running-phpunit)
-  * [Validating against WordPress coding standards](#validating-against-wordpress-coding-standards)
-    + [Setting up PHP_CodeSniffer](#setting-up-php_codesniffer)
-    + [Running PHP_CodeSniffer](#running-php_codesniffer)
-- [:gift: Releasing](#gift-releasing)
-  * [Version number](#version-number)
-  * [Changelog](#changelog)
-  * [Last tweaks and checks](#last-tweaks-and-checks)
-  * [Git tag](#git-tag)
-  * [Build the plugin as a ZIP file](#build-the-plugin-as-a-zip-file)
-  * [Set up SVN](#set-up-svn)
-  * [Commit to SVN](#commit-to-svn)
-
-<!-- tocstop -->
-
 ## :floppy_disk: Code formatting
 
 Pull and run [prettier](https://github.com/prettier/plugin-php) with:
@@ -114,21 +91,21 @@ composer lint
 Choose the next version number according to the rules of
 [Semantic Versioning](https://semver.org/) and set it in the following files:
 
-* [frameright.php](../frameright.php#L8)
-* [readme.txt](../readme.txt#L9)
+- [frameright.php](../frameright.php#L8)
+- [readme.txt](../readme.txt#L9)
 
 > **NOTES**:
 >
-> * [WordPress Readme Documentation](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/)
-> * [WordPress Readme Example](https://wordpress.org/plugins/readme.txt)
-> * [WordPress Readme Validator](https://wordpress.org/plugins/developers/readme-validator/)
+> - [WordPress Readme Documentation](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/)
+> - [WordPress Readme Example](https://wordpress.org/plugins/readme.txt)
+> - [WordPress Readme Validator](https://wordpress.org/plugins/developers/readme-validator/)
 
 ### Changelog
 
 Describe the changes made compared to the last released version in:
 
-* [the changelog served on the WordPress Plugin Directory](../readme.txt),
-* [the changelog in the documentation](../docs/changelog.md).
+- [the changelog served on the WordPress Plugin Directory](../readme.txt),
+- [the changelog in the documentation](../docs/changelog.md).
 
 Browse the git history to make sure nothing has been left out.
 

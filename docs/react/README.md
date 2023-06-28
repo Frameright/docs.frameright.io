@@ -29,19 +29,6 @@ to the pictures!
 
 &emsp; 💻 [CodeSandbox](https://codesandbox.io/s/image-display-control-react-component-m6qj9r)
 
-## Table of Contents
-
-<!-- toc -->
-
-- [Overview](#overview)
-  - [Without this component](#without-this-component)
-  - [Basic usage](#basic-usage)
-- [Image Display Control metadata](#image-display-control-metadata)
-- [Installation](#installation)
-- [Usage](#usage)
-
-<!-- tocstop -->
-
 ## Overview
 
 This [React](https://react.dev) component extends any `<img>`-like

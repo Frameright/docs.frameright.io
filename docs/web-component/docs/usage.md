@@ -2,17 +2,6 @@
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
-## Table of Contents
-
-<!-- toc -->
-
-- [HTML attributes](#html-attributes)
-- [CSS styling](#css-styling)
-- [HTML and CSS sizing](#html-and-css-sizing)
-- [Building and importing](#building-and-importing)
-
-<!-- tocstop -->
-
 A comprehensive demo is available at [`../demo/`](../demo/), covering various
 aspects of the web component. A typical example could look like this:
 

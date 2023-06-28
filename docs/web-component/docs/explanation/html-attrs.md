@@ -2,18 +2,6 @@
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
-## Table of Contents
-
-<!-- toc -->
-
-- [Standard `img` attributes](#standard-img-attributes)
-  - [`is=` attribute](#is-attribute)
-  - [`srcset=` and `sizes=` attributes](#srcset-and-sizes-attributes)
-  - [`id=` attribute](#id-attribute)
-- [Web-component-specific attributes](#web-component-specific-attributes)
-
-<!-- tocstop -->
-
 ## Standard `img` attributes
 
 The web component is a drop-in replacement for the standard `<img>` tag. It

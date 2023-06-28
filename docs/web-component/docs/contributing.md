@@ -2,27 +2,6 @@
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
-## Table of Contents
-
-<!-- toc -->
-
-- [:floppy_disk: Code formatting](#floppy_disk-code-formatting)
-- [:memo: Validating](#memo-validating)
-  - [Running the unit tests](#running-the-unit-tests)
-  - [Running the local demo](#running-the-local-demo)
-- [:bookmark_tabs: Documenting](#bookmark_tabs-documenting)
-  - [(Re-)generating tables of contents](#re-generating-tables-of-contents)
-- [:gift: Releasing](#gift-releasing)
-  - [Version number](#version-number)
-  - [Changelog](#changelog)
-  - [Update `package-lock.json`](#update-package-lockjson)
-  - [Last tweaks and checks](#last-tweaks-and-checks)
-  - [Git tag](#git-tag)
-  - [Build the package locally](#build-the-package-locally)
-  - [Publish the package to NPM](#publish-the-package-to-npm)
-
-<!-- tocstop -->
-
 ## :floppy_disk: Code formatting
 
 Pull and run [ESLint](https://eslint.org/) and

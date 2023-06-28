@@ -38,22 +38,6 @@ pictures!
 > [Image Display Control React component](https://github.com/Frameright/react-image-display-control)
 > instead.
 
-### Table of Contents
-
-<!-- toc -->
-
-- [Overview](#overview)
-  - [Without this web component](#without-this-web-component)
-  - [Basic usage](#basic-usage)
-  - [Why a custom `img` element?](#why-a-custom-img-element)
-- [Image Display Control metadata](#image-display-control-metadata)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Dependency tree / credits](#dependency-tree--credits)
-- [Browser support](#browser-support)
-
-<!-- tocstop -->
-
 ### Overview
 
 #### Without this web component

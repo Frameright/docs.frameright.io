@@ -6,16 +6,6 @@ limitations.
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
-## Table of Contents
-
-<!-- toc -->
-
-- [`object-*:`, `transform*:` and `clip-path:` properties](#object--transform-and-clip-path-properties)
-- [`border:` and `padding:` properties](#border-and-padding-properties)
-- [`contain:` and `overflow:` properties on the parent element](#contain-and-overflow-properties-on-the-parent-element)
-
-<!-- tocstop -->
-
 ## `object-*:`, `transform*:` and `clip-path:` properties
 
 In order to zoom in on a specific region of the image, the web component will

@@ -33,18 +33,6 @@ to the pictures!
 > [mattiasw](https://github.com/mattiasw), [netroy](https://github.com/netroy),
 > and other contributors!
 
-## Table of Contents
-
-<!-- toc -->
-
-- [Overview](#overview)
-- [Usage](#usage)
-  - [In a Node.js back-end](#in-a-nodejs-back-end)
-  - [Directly in a browser](#directly-in-a-browser)
-- [Image Display Control metadata](#image-display-control-metadata)
-
-<!-- tocstop -->
-
 ## Overview
 
 The
