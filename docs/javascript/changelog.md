@@ -6,6 +6,10 @@ tags:
 
 # Changelog
 
+**1.1.1** (2023-06-28):
+
+- Moved documentation to https://docs.frameright.io/javascript
+
 **1.1.0** (2023-05-18):
 
 - Added one more export path inside `package.json` in order to support
