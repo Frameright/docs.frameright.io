@@ -45,7 +45,12 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: `https://github.com/${githubOrgName}/${githubProjectName}/tree/main/`,
+
+          // Docs-only mode, see
+          // https://docusaurus.io/docs/docs-introduction#docs-only-mode
+          routeBasePath: '/',
         },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -101,23 +106,23 @@ const config = {
             items: [
               {
                 label: 'Overview',
-                to: '/docs',
+                to: '/overview',
               },
               {
                 label: 'React Component',
-                to: '/docs/react-component',
+                to: '/react',
               },
               {
                 label: 'Web Component',
-                to: '/docs/web-component',
+                to: '/web-component',
               },
               {
                 label: 'JavaScript Library',
-                to: '/docs/javascript-library',
+                to: '/javascript',
               },
               {
                 label: 'PHP Library',
-                to: '/docs/php-library',
+                to: '/php',
               },
             ],
           },
