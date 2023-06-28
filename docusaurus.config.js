@@ -124,6 +124,10 @@ const config = {
                 label: 'PHP Library',
                 to: '/php',
               },
+              {
+                label: 'WordPress Plugin',
+                to: '/wordpress',
+              },
             ],
           },
           {
