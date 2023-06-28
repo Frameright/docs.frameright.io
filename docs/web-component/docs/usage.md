@@ -47,11 +47,7 @@ aspects of the web component. A typical example could look like this:
         src="cats.jpg"
         title="Meow"
         alt="Cats being cute"
-        srcset="
-          cats.jpg          2000w,
-          cats-1024x512.jpg 1024w,
-          cats-768x384.jpg   768w
-        "
+        srcset="cats.jpg 2000w, cats-1024x512.jpg 1024w, cats-768x384.jpg 768w"
         sizes="(max-width: 2000px) 100vw, 2000px"
         data-loglevel="debug"
         data-image-regions='[{
@@ -88,19 +84,19 @@ This example creates an [Image Display Control](https://frameright.io) web
 component automatically zooming in on one of the two regions of a hypothetical
 image of cats:
 
-![Cats](assets/cats.png)
+![Cats](/img/web-component/cats.png)
 
 It touches on the following aspects.
 
 ## HTML attributes
 
-* All the attributes of the usual
+- All the attributes of the usual
   [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
   element are supported, e.g. `src=`, `srcset=`, `sizes=`, `width=`, etc.
-* The `is=` attribute is what makes the web component's implementation kick in.
-* Information specific to the web component is passed via `data-*=` attributes.
-* Image regions can be specified with relative or pixel coordinates.
-* The web component plays nicely with
+- The `is=` attribute is what makes the web component's implementation kick in.
+- Information specific to the web component is passed via `data-*=` attributes.
+- Image regions can be specified with relative or pixel coordinates.
+- The web component plays nicely with
   [pixel-density-specific image candidates](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset)
   described with `srcset=` and `sizes=`. Our hypothetical image has three
   candidates: `cats-1024x512.jpg`, `cats-768x384.jpg` and `cats.jpg`, which
@@ -117,13 +113,13 @@ See [CSS styling](explanation/styling.md) for more details.
 
 ## HTML and CSS sizing
 
-* The usual ways of sizing an `<img>` element are supported, e.g. HTML `width=`,
+- The usual ways of sizing an `<img>` element are supported, e.g. HTML `width=`,
   CSS `height:`, etc.
-* The web component is 
+- The web component is
   [responsive](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
   and will automatically reassess the best region to zoom in on when it gets
   resized, e.g. when the user turns their phone from portrait to landscape.
-* The web component takes exactly the same space as a standard `<img>` element
+- The web component takes exactly the same space as a standard `<img>` element
   would under the same circumstances and styling.
 
 ## Building and importing

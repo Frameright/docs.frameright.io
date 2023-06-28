@@ -13,7 +13,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Define regions in your images',
-    Svg: require('@site/static/img/feature_crop.svg').default,
+    Svg: require('@site/static/img/frameright/feature_crop.svg').default,
     description: (
       <>
         Use the <Link href="https://frameright.app">Frameright App</Link> to
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Add our components to your websites',
-    Svg: require('@site/static/img/feature_stack.svg').default,
+    Svg: require('@site/static/img/frameright/feature_stack.svg').default,
     description: (
       <>
         Our components extend <code>&lt;img&gt;</code>-like elements to
@@ -34,7 +34,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Stop caring',
-    Svg: require('@site/static/img/feature_graph.svg').default,
+    Svg: require('@site/static/img/frameright/feature_graph.svg').default,
     description: (
       <>
         Stop caring about where your images end up in your responsive layout and

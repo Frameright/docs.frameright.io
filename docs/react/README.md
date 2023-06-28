@@ -78,7 +78,7 @@ offer nowadays is to use the
 [`object-fit: cover;`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
 CSS property in order to scale and middle-crop it:
 
-<img src="https://raw.githubusercontent.com/Frameright/react-image-display-control/main/docs/assets/skater_middlecrop.png" align="right" />
+<img src="/img/ekroos/skater_middlecrop.png" align="right" />
 
 ```html
 <img
@@ -99,7 +99,7 @@ This React component extends its `<img>`-like children with the ability to
 retrieve image regions from their image metadata, and to zoom in on the best one
 for the current element size:
 
-<img src="https://raw.githubusercontent.com/Frameright/react-image-display-control/main/docs/assets/skater_withidc.png" align="right" />
+<img src="/img/ekroos/skater_withidc.png" align="right" />
 
 ```html
 <ImageDisplayControl>

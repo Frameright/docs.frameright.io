@@ -11,7 +11,7 @@ const githubProjectName = 'docs.frameright.io';
 const config = {
   title: 'Frameright',
   tagline: 'For developers',
-  favicon: 'img/frameright_logo.png',
+  favicon: 'img/frameright/frameright_logo.png',
 
   // Set the production url of your site here
   url: 'https://docs.frameright.io',
@@ -62,12 +62,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/frameright_logo.png',
+      image: 'img/frameright/frameright_logo.png',
       navbar: {
         title: 'Frameright',
         logo: {
           alt: 'Frameright Logo',
-          src: 'img/frameright_logo.png',
+          src: 'img/frameright/frameright_logo.png',
         },
         items: [
           {
