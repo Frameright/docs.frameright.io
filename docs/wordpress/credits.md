@@ -1,3 +1,9 @@
+---
+sidebar_position: 30
+tags:
+  - reference
+---
+
 # Dependency tree / credits
 
 <!--

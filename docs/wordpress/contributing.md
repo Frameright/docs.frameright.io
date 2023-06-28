@@ -1,3 +1,9 @@
+---
+sidebar_position: 10
+tags:
+  - howto
+---
+
 # Contributing
 
 ## :floppy_disk: Code formatting

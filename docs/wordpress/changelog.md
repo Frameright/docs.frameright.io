@@ -1,3 +1,9 @@
+---
+sidebar_position: 20
+tags:
+  - reference
+---
+
 # Changelog
 
 <!--
