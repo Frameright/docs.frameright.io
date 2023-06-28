@@ -1,23 +1,20 @@
+---
+sidebar_position: 60
+tags:
+  - explanation
+---
+
 # Server-side rendering and static site generation
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
 
-## Table of Contents
-
-<!-- toc -->
-
-- [In any environment](#in-any-environment)
-- [In Next.js](#in-nextjs)
-
-<!-- tocstop -->
-
 If your environment supports it, React will not only render the component in the
 browser but also:
 
-* on the server during
+- on the server during
   [server-side rendering](https://nextjs.org/docs/pages/building-your-application/rendering/server-side-rendering),
   or even
-* at build time, on the machine used for building your app, during
+- at build time, on the machine used for building your app, during
   [static site generation](https://nextjs.org/docs/pages/building-your-application/rendering/static-site-generation).
 
 This is the case with [Next.js](https://nextjs.org/) or
@@ -30,8 +27,8 @@ pointed to by the `src=` attribute by using
 [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/fetch). On server
 or at build time however, the component can't do the same because:
 
-* The URL may not be accessible from the server or build machine.
-* The component is expected to render synchronously (i.e. without asynchronous
+- The URL may not be accessible from the server or build machine.
+- The component is expected to render synchronously (i.e. without asynchronous
   network requests).
 
 For this reason the component needs to know where to find the image file on
@@ -45,15 +42,15 @@ This looks like this:
 // /src/MyApp.tsx
 
 // npm install @frameright/react-image-display-control
-import { ImageDisplayControl } from "@frameright/react-image-display-control";
+import { ImageDisplayControl } from '@frameright/react-image-display-control';
 
 // In Vite (+ SSR), a static import to an image yields a string containing the
 // URL of the image accessible from the browser.
-import skaterUrl from "./assets/skater.jpg";
+import skaterUrl from './assets/skater.jpg';
 
-const isServer = typeof window === "undefined";
+const isServer = typeof window === 'undefined';
 const skaterPathOnServer = isServer
-  ? process.cwd() + "/src/assets/skater.jpg"
+  ? process.cwd() + '/src/assets/skater.jpg'
   : null;
 
 export function MyApp() {
@@ -88,22 +85,19 @@ This allows us to provide some syntactic sugar: instead of passing a
 ```tsx
 // /pages/MyPage.tsx
 
-import Image from "next/image";
+import Image from 'next/image';
 
 // npm install @frameright/react-image-display-control
-import { ImageDisplayControl } from "@frameright/react-image-display-control";
+import { ImageDisplayControl } from '@frameright/react-image-display-control';
 
 // In Next.js, a static import to an image yields a StaticImageData object.
-import skater from "../images/skater.jpg";
-skater["pathOnServer"] = process.cwd() + "/images/skater.jpg";
+import skater from '../images/skater.jpg';
+skater['pathOnServer'] = process.cwd() + '/images/skater.jpg';
 
 export default function MyPage() {
   return (
     <ImageDisplayControl>
-      <Image
-        src={skater}
-        alt="Skater"
-      />
+      <Image src={skater} alt="Skater" />
     </ImageDisplayControl>
   );
 }

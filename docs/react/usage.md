@@ -1,44 +1,35 @@
-# Advanced usage
+---
+sidebar_position: 10
+tags:
+  - explanation
+---
+
+# Usage
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
 
-## Table of Contents
-
-<!-- toc -->
-
-- [`img`-like direct children](#img-like-direct-children)
-- [HTML attributes and React properties](#html-attributes-and-react-properties)
-- [CSS styling](#css-styling)
-- [HTML and CSS sizing](#html-and-css-sizing)
-- [Server-side rendering](#server-side-rendering)
-
-<!-- tocstop -->
-
-A simple demo is available at [`../example/`](../example/). A more comprehensive
+A simple demo is available in [`example/`](example). A more comprehensive
 example could look like this:
 
 ```tsx
 // /src/MyApp.tsx
 
 // npm install @frameright/react-image-display-control
-import { ImageDisplayControl } from "@frameright/react-image-display-control";
+import { ImageDisplayControl } from '@frameright/react-image-display-control';
 
 // npm install react-bootstrap
-import Image from "react-bootstrap/Image";
+import Image from 'react-bootstrap/Image';
 
-import skaterUrl from "./assets/skater.jpg";
+import skaterUrl from './assets/skater.jpg';
 
-const isServer = typeof window === "undefined";
+const isServer = typeof window === 'undefined';
 const skaterPathOnServer = isServer
-  ? process.cwd() + "/src/assets/skater.jpg"
+  ? process.cwd() + '/src/assets/skater.jpg'
   : null;
 
 export function MyApp() {
   return (
-    <div
-      style={{ contain: "paint" }}
-      data-idc-parent
-    >
+    <div style={{ contain: 'paint' }} data-idc-parent>
       <ImageDisplayControl data-debug>
         <img
           id="external-img-without-ssr"
@@ -54,8 +45,8 @@ export function MyApp() {
           data-avoid-no-region="off"
           alt="Skater"
           style={{
-            width: "300px",
-            height: "200px",
+            width: '300px',
+            height: '200px',
           }}
         />
         <img
@@ -85,27 +76,27 @@ The `<ImageDisplayControl>` component adds
 [Image Display Control](https://frameright.io) functionality to any of its
 `<img>`-like direct children. We have validated:
 
-* `<img>` elements,
-* [Next.js `<Image>`](https://nextjs.org/docs/api-reference/next/image)
+- `<img>` elements,
+- [Next.js `<Image>`](https://nextjs.org/docs/api-reference/next/image)
   components,
-* [React-Bootstrap `<Image>`](https://react-bootstrap.github.io/components/images/)
+- [React-Bootstrap `<Image>`](https://react-bootstrap.github.io/components/images/)
   components.
 
 ## HTML attributes and React properties
 
-* All the attributes/properties of the original `<img>`-like child are
+- All the attributes/properties of the original `<img>`-like child are
   supported, e.g. `src=`, `alt=`, `width=`, etc.
-* All `data-*=` attributes specific to the underlying web component are
+- All `data-*=` attributes specific to the underlying web component are
   supported, e.g. `data-avoid-no-region=`. See the web component's attribute
-  [reference](https://github.com/Frameright/image-display-control-web-component/blob/main/image-display-control/docs/reference/attributes.md)
+  [reference](/web-component/attribute-ref)
   for more details.
-* Additional `data-*=` attributes/properties exist:
-    * on the children (e.g. `data-path-on-server=` for
-      [server-side rendering](explanation/ssr.md)),
-    * on the `<ImageDisplayControl>` component (e.g. `data-debug` for debugging),
-    * on its DOM parent (e.g. `data-idc-parent` for guiding developers).
+- Additional `data-*=` attributes/properties exist:
+  - on the children (e.g. `data-path-on-server=` for
+    [server-side rendering](ssr)),
+  - on the `<ImageDisplayControl>` component (e.g. `data-debug` for debugging),
+  - on its DOM parent (e.g. `data-idc-parent` for guiding developers).
 
-See [attributes and properties](explanation/attributes.md) for more details.
+See [attributes and properties](attributes) for more details.
 
 ## CSS styling
 
@@ -117,13 +108,13 @@ component's CSS styling
 
 ## HTML and CSS sizing
 
-* The usual ways of sizing the `<img>`-like children are supported, e.g.
+- The usual ways of sizing the `<img>`-like children are supported, e.g.
   HTML `width=`, CSS `height:`, etc.
-* The rendered child is 
+- The rendered child is
   [responsive](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
   and will automatically reassess the best region to zoom in on when it gets
   resized, e.g. when the user turns their phone from portrait to landscape.
-* A rendered child takes exactly the same space as it would if it didn't have an
+- A rendered child takes exactly the same space as it would if it didn't have an
   `<ImageDisplayControl>` parent under the same circumstances and styling.
 
 ## Server-side rendering
@@ -132,11 +123,11 @@ The React component can be imported anywhere in your code with a static
 `import` statement, no matter if this portion of the code is to be executed on
 the server, on the client, or at build time for static site generation.
 
-See [Importing in your project](explanation/importing.md) for more details.
+See [Importing in your project](importing) for more details.
 
 In order to make server-side rendering (or static site generation) possible:
 
-* import the image file statically,
-* pass the path to the image file on disk to the corresponding child.
+- import the image file statically,
+- pass the path to the image file on disk to the corresponding child.
 
-See [Server-side rendering](explanation/ssr.md) for more details.
+See [Server-side rendering](ssr) for more details.

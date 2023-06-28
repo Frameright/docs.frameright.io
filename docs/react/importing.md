@@ -1,3 +1,9 @@
+---
+sidebar_position: 30
+tags:
+  - explanation
+---
+
 # Importing in your project
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
@@ -7,7 +13,7 @@
 <!-- toc -->
 
 - [Inside a Node.js-based project](#inside-a-nodejs-based-project)
-  * [Inside a Next.js project](#inside-a-nextjs-project)
+  - [Inside a Next.js project](#inside-a-nextjs-project)
 
 <!-- tocstop -->
 
@@ -22,15 +28,12 @@ npm install @frameright/react-image-display-control
 ```
 
 No matter whether your code is intended to run in the browser, during
-[server-side rendering](ssr.md) or at build time for building static pages, you
+[server-side rendering](ssr) or at build time for building static pages, you
 can import the React component anywhere with:
 
 ```js
-import "@frameright/react-image-display-control";
+import '@frameright/react-image-display-control';
 ```
-
-&emsp; :airplane:
-[Advanced usage](https://github.com/Frameright/react-image-display-control/blob/main/docs/usage.md)
 
 ### Inside a Next.js project
 

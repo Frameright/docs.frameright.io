@@ -240,9 +240,6 @@ or get it from a
 
 ![Demo](/img/web-component/demo.gif)
 
-&emsp; :airplane:
-[Advanced usage](https://github.com/Frameright/image-display-control-web-component/blob/main/image-display-control/docs/usage.md)
-
 &emsp; :sparkles: [Local demo](https://github.com/Frameright/image-display-control-web-component/blob/main/image-display-control/demo/)
 
 &emsp; :wrench: [Contributing](https://github.com/Frameright/image-display-control-web-component/blob/main/image-display-control/docs/contributing.md)

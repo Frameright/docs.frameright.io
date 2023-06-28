@@ -1,3 +1,9 @@
+---
+sidebar_position: 40
+tags:
+  - howto
+---
+
 # Local demo
 
 <!--
@@ -7,9 +13,10 @@ WARNING: Bits of information here are duplicated in several places:
 Make sure to keep them in sync.
 -->
 
-Run me with:
+A local demo can be run with:
 
 ```bash
+cd example/
 ./clean-build-and-run.sh
 ```
 

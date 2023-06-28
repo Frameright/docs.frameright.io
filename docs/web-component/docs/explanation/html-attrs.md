@@ -7,9 +7,9 @@
 <!-- toc -->
 
 - [Standard `img` attributes](#standard-img-attributes)
-  * [`is=` attribute](#is-attribute)
-  * [`srcset=` and `sizes=` attributes](#srcset-and-sizes-attributes)
-  * [`id=` attribute](#id-attribute)
+  - [`is=` attribute](#is-attribute)
+  - [`srcset=` and `sizes=` attributes](#srcset-and-sizes-attributes)
+  - [`id=` attribute](#id-attribute)
 - [Web-component-specific attributes](#web-component-specific-attributes)
 
 <!-- tocstop -->
@@ -74,11 +74,7 @@ versions of the image for different screen sizes:
   src="cats.jpg"
   title="Meow"
   alt="Cats being cute"
-  srcset="
-    cats.jpg          2000w,
-    cats-1024x512.jpg 1024w,
-    cats-768x384.jpg   768w
-  "
+  srcset="cats.jpg 2000w, cats-1024x512.jpg 1024w, cats-768x384.jpg 768w"
   sizes="(max-width: 2000px) 100vw, 2000px"
   data-image-regions='[{
     "id": "onecatsleeping",
@@ -108,7 +104,7 @@ Because there are now several source images with different resolutions, defining
 image regions with coordinates in pixels wouldn't make much sense. We made it
 possible by specifying a reference `imageWidth`/`imageHeight` based on
 which the regions are defined. See the
-[Attribute reference](../reference/attributes.md) for more details.
+[Attribute reference](attribute-ref) for more details.
 
 Any changes to the `srcset=` and `sizes=` attributes will be picked up by the
 web component.
@@ -166,7 +162,7 @@ If not set or empty, the console output will start with:
 [idc] Populating rectangle image regions...
 ```
 
-See the [Attribute reference](../reference/attributes.md) for more details.
+See the [Attribute reference](attribute-ref) for more details.
 
 Any changes to the `id=` attribute will be picked up by the web component.
 
@@ -182,7 +178,7 @@ order to force it to behave like a standard `<img>` tag, use the
 `data-loglevel=` attribute. In order to have the web component draw the image
 regions on top of the image as an overlay for debugging purposes, use the
 `data-debug-draw-regions=` attribute. See the
-[Attribute reference](../reference/attributes.md) for more details and for other
+[Attribute reference](attribute-ref) for more details and for other
 attributes.
 
 Any changes to the `data-*` attributes will be picked up by the web component.

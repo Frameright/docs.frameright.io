@@ -1,27 +1,12 @@
+---
+sidebar_position: 70
+tags:
+  - howto
+---
+
 # Contributing
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
-
-## Table of Contents
-
-<!-- toc -->
-
-- [:floppy_disk: Code formatting](#floppy_disk-code-formatting)
-- [:memo: Validating](#memo-validating)
-  * [Running the unit tests](#running-the-unit-tests)
-  * [Running the local demo](#running-the-local-demo)
-- [:bookmark_tabs: Documenting](#bookmark_tabs-documenting)
-  * [(Re-)generating tables of contents](#re-generating-tables-of-contents)
-- [:gift: Releasing](#gift-releasing)
-  * [Version number](#version-number)
-  * [Changelog](#changelog)
-  * [Update the `package-lock.json` files](#update-the-package-lockjson-files)
-  * [Last tweaks and checks](#last-tweaks-and-checks)
-  * [Git tag](#git-tag)
-  * [Build the package locally](#build-the-package-locally)
-  * [Publish the package to NPM](#publish-the-package-to-npm)
-
-<!-- tocstop -->
 
 ## :floppy_disk: Code formatting
 
@@ -48,7 +33,7 @@ npm run test
 ### Running the local demo
 
 Build the React component, pull [Parcel](https://parceljs.org/) and run
-[`../example/`](../example/) with:
+[`example/`](example) with:
 
 ```bash
 cd example/
@@ -82,7 +67,7 @@ Choose the next version number according to the rules of
 ### Changelog
 
 Describe the changes made compared to the last released version in the
-[changelog](changelog.md). Browse the git history to make sure nothing has been
+[changelog](changelog). Browse the git history to make sure nothing has been
 left out.
 
 ### Update the `package-lock.json` files

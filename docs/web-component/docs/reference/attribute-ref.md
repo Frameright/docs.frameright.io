@@ -1,7 +1,7 @@
 # Attribute reference
 
 For a more high-level overview of the attributes, see the
-[Attributes](../explanation/attributes.md) page.
+[Attributes](html-attrs) page.
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
@@ -26,25 +26,25 @@ Type: string.
 JSON-formatted array of regions, a region being an object with the
 following properties:
 
-* `id`: string. Identifier for the region. Unique within the array of regions.
-* `names`: array of strings. Names for the region, possibly in different
+- `id`: string. Identifier for the region. Unique within the array of regions.
+- `names`: array of strings. Names for the region, possibly in different
   languages.
-* `shape`: string. Only supported value for now: `rectangle`.
-* `unit`: string. Unit of the `x`, `y`, `width` and `height` properties.
+- `shape`: string. Only supported value for now: `rectangle`.
+- `unit`: string. Unit of the `x`, `y`, `width` and `height` properties.
   Supported values:
-  * `relative`: Unit is a floating-point number (or numeric string) between 0
+  - `relative`: Unit is a floating-point number (or numeric string) between 0
     and 1, representing a coordinate or length relative to the image size.
-  * `pixel`: Unit is a positive integer number (or numeric string), representing
+  - `pixel`: Unit is a positive integer number (or numeric string), representing
     a coordinate or length in pixels, relative to the size specified by the
     `imageWidth` and `imageHeight` properties.
-* `imageWidth`: positive integer number (or numeric string). Reference width to
+- `imageWidth`: positive integer number (or numeric string). Reference width to
   be used as a base for `x` and `width` when `unit` is `pixel`.
-* `imageHeight`: positive integer number (or numeric string). Reference height
+- `imageHeight`: positive integer number (or numeric string). Reference height
   to be used as a base for `y` and `height` when `unit` is `pixel`.
-* `x`: X coordinate of the region.
-* `y`: Y coordinate of the region.
-* `width`: Width of the region.
-* `height`: Height of the region.
+- `x`: X coordinate of the region.
+- `y`: Y coordinate of the region.
+- `width`: Width of the region.
+- `height`: Height of the region.
 
 > **NOTE**: when the
 > [`srcset=`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset)
@@ -75,10 +75,10 @@ Type: string.
 
 Supported values:
 
-* `off`: The web component considers the full original image as a region valid
+- `off`: The web component considers the full original image as a region valid
   region to select. If the component's ratio and the image's ratio are very
   close, the component will decide it's best not to zoom in on any region.
-* `on` (default): The web component will always prefer to zoom in on a region
+- `on` (default): The web component will always prefer to zoom in on a region
   if possible, rather than selecting the full original image.
 
 > **NOTE**: `data-avoid-no-region="on"` is not a guarantee that the web
@@ -92,14 +92,14 @@ Type: string.
 
 Supported values:
 
-* `disable-component` (default): When the browser doesn't support
+- `disable-component` (default): When the browser doesn't support
   `contain: paint;`, fall back to disabling the web component.
-* `overflow-hidden`: Fall back to setting `overflow: hidden;` on the parent
+- `overflow-hidden`: Fall back to setting `overflow: hidden;` on the parent
   element instead. This works well if the component is the only child its parent
   element, otherwise it may remove scrollbars too aggressively.
-* `disable-containment`: Fall back to not touching the parent element. This may
+- `disable-containment`: Fall back to not touching the parent element. This may
   cause rogue scrollbars.
-* `force`: Even if the browser is known not to support `contain: paint;`, set
+- `force`: Even if the browser is known not to support `contain: paint;`, set
   it anyway.
 
 See [Browser support](../explanation/browsers.md) and
@@ -111,11 +111,11 @@ Type: string.
 
 Supported values:
 
-* `none` (default): No functionality disabled. The web component will behave as
+- `none` (default): No functionality disabled. The web component will behave as
   expected.
-* `all`: All functionality disabled. The web component will behave like a
+- `all`: All functionality disabled. The web component will behave like a
   standard `<img>` tag.
-* `css-contain`: Use of CSS `contain:` disabled. The web component will behave
+- `css-contain`: Use of CSS `contain:` disabled. The web component will behave
   as if this feature wasn't supported by the browser and follow the fallback
   behavior set by the `data-css-contain-fallback=` attribute.
 
@@ -128,12 +128,12 @@ Type: string.
 
 Logging level for console output. Supported values:
 
-* `off` (default): No console output.
-* `fatal`: Only fatal messages.
-* `error`: Only error and fatal messages.
-* `warn`: Only warning, error and fatal messages.
-* `info`: Only info, warning, error and fatal messages.
-* `debug`: All messages.
+- `off` (default): No console output.
+- `fatal`: Only fatal messages.
+- `error`: Only error and fatal messages.
+- `warn`: Only warning, error and fatal messages.
+- `info`: Only info, warning, error and fatal messages.
+- `debug`: All messages.
 
 ## `data-debug-draw-regions=`
 
@@ -142,11 +142,11 @@ Type: string.
 Whether or not to draw the image regions as an overlay on top of the image, for
 debugging purposes. Supported values:
 
-* `off` (default): No drawing.
-* `on`: Drawing is performed by creating sibling `<div>` elements, giving them
+- `off` (default): No drawing.
+- `on`: Drawing is performed by creating sibling `<div>` elements, giving them
   a border and letting them overlay the image.
 
 > **NOTE**: this will only work if:
 >
-> * The web component is not in `data-disabled="all"` mode.
-> * The web component is at the top-right corner of its parent element.
+> - The web component is not in `data-disabled="all"` mode.
+> - The web component is at the top-right corner of its parent element.

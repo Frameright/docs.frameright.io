@@ -102,7 +102,7 @@ It touches on the following aspects.
   candidates: `cats-1024x512.jpg`, `cats-768x384.jpg` and `cats.jpg`, which
   should be at least `2000px` wide.
 
-See [HTML attributes](explanation/attributes.md) for more details.
+See [HTML attributes](html-attrs) for more details.
 
 ## CSS styling
 

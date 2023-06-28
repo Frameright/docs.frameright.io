@@ -57,8 +57,8 @@ existing project, e.g.:
   whether you define them yourself or whether they are generated on your behalf
   by another component like
   [Next.js `<Image>`](https://nextjs.org/docs/api-reference/next/image),
-- [server-side rendering](https://github.com/Frameright/react-image-display-control/blob/main/docs/explanation/ssr.md)
-  and static site generation, e.g. in a Next.js or in a Vite-based project.
+- [server-side rendering](ssr) and static site generation, e.g. in a Next.js or
+  in a Vite-based project.
 
 It doesn't change the structure of your DOM: your existing CSS rules still
 apply.
@@ -147,8 +147,7 @@ In your [Node.js](https://nodejs.org/en)-based project (e.g. using
 npm install @frameright/react-image-display-control
 ```
 
-&emsp; :floppy_disk:
-[Importing in your project](https://github.com/Frameright/react-image-display-control/blob/main/docs/explanation/importing.md)
+&emsp; :floppy_disk: [Importing in your project](importing)
 
 ## Usage
 
@@ -183,20 +182,6 @@ Other `<img>`-like elements/components are supported as well, e.g.
 [Next.js `<Image>`s](https://nextjs.org/docs/api-reference/next/image) or
 [React-Bootstrap `<Image>`s](https://react-bootstrap.github.io/components/images/).
 
-&emsp; :airplane:
-[Advanced usage](https://github.com/Frameright/react-image-display-control/blob/main/docs/usage.md)
-
-&emsp; 🌍
-[Supported environments](https://github.com/Frameright/react-image-display-control/blob/main/docs/environments.md)
-
-&emsp; :wrench: [Contributing](https://github.com/Frameright/react-create-display-control/blob/main/docs/contributing.md)
-
-&emsp; 📝 [Changelog](https://github.com/Frameright/react-create-display-control/blob/main/docs/changelog.md)
-
-&emsp; :sparkles: [Local demo](https://github.com/Frameright/react-image-display-control/blob/main/example/)
-
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
 
 &emsp; :sparkles: [Live mobile demo](https://react.frameright.io)
-
-&emsp; 🙏 [Dependency tree / credits](https://github.com/Frameright/react-image-display-control/blob/main/docs/credits.md)
