@@ -8,18 +8,18 @@
 
 - [:floppy_disk: Code formatting](#floppy_disk-code-formatting)
 - [:memo: Validating](#memo-validating)
-  * [Running the unit tests](#running-the-unit-tests)
+  - [Running the unit tests](#running-the-unit-tests)
 - [:bookmark_tabs: Documenting](#bookmark_tabs-documenting)
-  * [(Re-)generating the TypeDoc reference documentation](#re-generating-the-typedoc-reference-documentation)
-  * [(Re-)generating tables of contents](#re-generating-tables-of-contents)
+  - [(Re-)generating the TypeDoc reference documentation](#re-generating-the-typedoc-reference-documentation)
+  - [(Re-)generating tables of contents](#re-generating-tables-of-contents)
 - [:gift: Releasing](#gift-releasing)
-  * [Version number](#version-number)
-  * [Changelog](#changelog)
-  * [Update `package-lock.json`](#update-package-lockjson)
-  * [Last tweaks and checks](#last-tweaks-and-checks)
-  * [Git tag](#git-tag)
-  * [Build the package locally](#build-the-package-locally)
-  * [Publish the package to NPM](#publish-the-package-to-npm)
+  - [Version number](#version-number)
+  - [Changelog](#changelog)
+  - [Update `package-lock.json`](#update-package-lockjson)
+  - [Last tweaks and checks](#last-tweaks-and-checks)
+  - [Git tag](#git-tag)
+  - [Build the package locally](#build-the-package-locally)
+  - [Publish the package to NPM](#publish-the-package-to-npm)
 
 <!-- tocstop -->
 
@@ -71,11 +71,12 @@ npm run gentoc
 ### Version number
 
 Choose the next version number according to the rules of
-[Semantic Versioning](https://semver.org/) and set it in
-[package.json](package.json).
+[Semantic Versioning](https://semver.org/) and set it in `package.json`.
 
-Also update the examples in the documentation to use the new version number in
-[`README.md`](README.md).
+Also update the examples to use the new version number:
+
+- in [this documentation](/javascript),
+- on [GitHub](https://github.com/Frameright/image-display-control-metadata-parser).
 
 ### Changelog
 

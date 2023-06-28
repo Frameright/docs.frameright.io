@@ -61,8 +61,7 @@ npm run gentoc
 ### Version number
 
 Choose the next version number according to the rules of
-[Semantic Versioning](https://semver.org/) and set it in
-[package.json](package.json).
+[Semantic Versioning](https://semver.org/) and set it in `package.json`.
 
 ### Changelog
 

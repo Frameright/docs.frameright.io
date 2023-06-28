@@ -8,18 +8,18 @@
 
 - [:floppy_disk: Code formatting](#floppy_disk-code-formatting)
 - [:memo: Validating](#memo-validating)
-  * [Running the unit tests](#running-the-unit-tests)
-  * [Running the local demo](#running-the-local-demo)
+  - [Running the unit tests](#running-the-unit-tests)
+  - [Running the local demo](#running-the-local-demo)
 - [:bookmark_tabs: Documenting](#bookmark_tabs-documenting)
-  * [(Re-)generating tables of contents](#re-generating-tables-of-contents)
+  - [(Re-)generating tables of contents](#re-generating-tables-of-contents)
 - [:gift: Releasing](#gift-releasing)
-  * [Version number](#version-number)
-  * [Changelog](#changelog)
-  * [Update `package-lock.json`](#update-package-lockjson)
-  * [Last tweaks and checks](#last-tweaks-and-checks)
-  * [Git tag](#git-tag)
-  * [Build the package locally](#build-the-package-locally)
-  * [Publish the package to NPM](#publish-the-package-to-npm)
+  - [Version number](#version-number)
+  - [Changelog](#changelog)
+  - [Update `package-lock.json`](#update-package-lockjson)
+  - [Last tweaks and checks](#last-tweaks-and-checks)
+  - [Git tag](#git-tag)
+  - [Build the package locally](#build-the-package-locally)
+  - [Publish the package to NPM](#publish-the-package-to-npm)
 
 <!-- tocstop -->
 
@@ -40,7 +40,7 @@ npm run format  # fix errors
 
 Pull and run
 [Web Test Runner](https://modern-web.dev/docs/test-runner/overview/) with:
-  
+
 ```bash
 npm install
 npm run test        # run once
@@ -78,13 +78,13 @@ npm run gentoc
 ### Version number
 
 Choose the next version number according to the rules of
-[Semantic Versioning](https://semver.org/) and set it in
-[package.json](../package.json).
+[Semantic Versioning](https://semver.org/) and set it in `package.json`.
 
-Also update the examples in the documentation to use the new version number in:
+Also update the examples to use the new version number:
 
-* [`../README.md`](../README.md)
-* [`explanation/importing.md`](explanation/importing.md)
+- in [the main documentation](/web-component),
+- in [the import documentation](importing),
+- on [GitHub](https://github.com/Frameright/image-display-control-web-component).
 
 ### Changelog
 
