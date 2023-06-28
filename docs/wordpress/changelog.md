@@ -13,6 +13,10 @@ WARNING: Bits of information here are duplicated in several places:
 Make sure to keep them in sync.
 -->
 
+## 1.0.0 (2023-06-28)
+
+- Moved documentation to https://docs.frameright.io/wordpress
+
 ## 0.1.2 (2023-04-03)
 
 - Marked as validated with WordPress 6.2.
