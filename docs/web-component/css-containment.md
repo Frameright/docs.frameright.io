@@ -1,3 +1,9 @@
+---
+sidebar_position: 70
+tags:
+  - explanation
+---
+
 # CSS containment
 
 [CSS containment](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Containment)

@@ -1,3 +1,9 @@
+---
+sidebar_position: 40
+tags:
+  - howto
+---
+
 # Local demo
 
 <!--

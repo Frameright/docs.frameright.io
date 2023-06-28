@@ -1,3 +1,9 @@
+---
+sidebar_position: 60
+tags:
+  - explanation
+---
+
 # CSS styling
 
 The usual ways of styling an `<img>` element are supported, e.g. `width:`,

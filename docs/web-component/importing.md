@@ -1,3 +1,9 @@
+---
+sidebar_position: 30
+tags:
+  - explanation
+---
+
 # Importing in your project
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)

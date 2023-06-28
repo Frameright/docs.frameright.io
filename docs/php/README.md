@@ -34,7 +34,7 @@ Supported image meta types:
 - ~~EXIF~~
 
 > **NOTE**: a TypeScript equivalent of this library is available
-> [here](https://github.com/Frameright/image-display-control-metadata-parser).
+> [here](/javascript).
 
 ## Installation
 

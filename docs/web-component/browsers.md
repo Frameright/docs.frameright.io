@@ -1,3 +1,9 @@
+---
+sidebar_position: 50
+tags:
+  - explanation
+---
+
 # Browser support
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)

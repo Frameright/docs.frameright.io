@@ -1,3 +1,9 @@
+---
+sidebar_position: 80
+tags:
+  - reference
+---
+
 # Attribute reference
 
 For a more high-level overview of the attributes, see the

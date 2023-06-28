@@ -55,7 +55,7 @@ apply.
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
 
 > **NOTE**: if you are not using React, you may want to have a look at the
-> [Image Display Control Web component](https://github.com/Frameright/image-display-control-web-component)
+> [Image Display Control Web component](/web-component)
 > instead.
 
 ### Without this component
@@ -115,10 +115,9 @@ Nowadays an image file (e.g. JPEG, PNG) can contain this type of image regions
 in their metadata according to
 [the IPTC standard](https://iptc.org/std/photometadata/specification/IPTC-PhotoMetadata#image-region).
 This React component uses
-[a library](https://github.com/Frameright/image-display-control-metadata-parser)
-to let the back-end or front-end extract the regions from the image file. It
-then passes them to the `<img>` tag and turns it into
-[a web component](https://github.com/Frameright/image-display-control-web-component),
+[a library](/javascript) to let the back-end or front-end extract the regions
+from the image file. It then passes them to the `<img>` tag and turns it into
+[a web component](/web-component),
 which automatically and responsively zooms in on the best region.
 
 Photographers, or anyone else, can use the

@@ -1,3 +1,9 @@
+---
+sidebar_position: 90
+tags:
+  - howto
+---
+
 # Contributing
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)

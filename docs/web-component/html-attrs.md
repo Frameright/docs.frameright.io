@@ -1,3 +1,9 @@
+---
+sidebar_position: 20
+tags:
+  - explanation
+---
+
 # HTML attributes
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)

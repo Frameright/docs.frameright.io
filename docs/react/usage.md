@@ -64,7 +64,7 @@ export function MyApp() {
 ```
 
 This example turns three `<img>`-like elements/components into
-[Image Display Control web components](https://github.com/Frameright/image-display-control-web-component)
+[Image Display Control web components](/web-component)
 which are going to automatically/responsively zoom in on the most suitable
 region from each image's metadata.
 

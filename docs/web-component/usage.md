@@ -1,4 +1,10 @@
-# Advanced usage
+---
+sidebar_position: 10
+tags:
+  - explanation
+---
+
+# Usage
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 

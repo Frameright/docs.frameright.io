@@ -31,13 +31,13 @@ and has an `src=` attribute should be supported. We have validated:
 ## Supported image formats
 
 Image formats that are both commonly supported by browsers and supported by the
-[Frameright Image Display Control metadata parser](https://github.com/Frameright/image-display-control-metadata-parser)
+[Frameright Image Display Control metadata parser](/javascript)
 should be supported. We have validated JPEG, PNG and WebP.
 
 ## Supported browsers
 
 The browsers supported by the
-[Frameright Image Display Control web component](https://github.com/Frameright/image-display-control-web-component/)
+[Frameright Image Display Control web component](/web-component)
 are supported:
 
 - Chrome 64+ (2018)

@@ -35,8 +35,7 @@ pictures!
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
 > **NOTE**: if you are using React, you may want to have a look at the
-> [Image Display Control React component](https://github.com/Frameright/react-image-display-control)
-> instead.
+> [Image Display Control React component](/react) instead.
 
 ### Overview
 
@@ -147,14 +146,11 @@ in their metadata according to
 The back-end would typically be responsible for extracting them from the image
 file and placing them in the front-end's `<img data-image-regions="` attribute.
 This is for example what
-[this WordPress plugin](https://wordpress.org/plugins/image-display-control/)
-does, with the help of
-[a PHP library](https://github.com/Frameright/php-image-metadata-parser) for
-extracting image metadata. This can also be achieved on a Node.js back-end with
-the help of
-[this TypeScript library](https://github.com/Frameright/image-display-control-metadata-parser).
-In fact we have created
-[this React component](https://github.com/Frameright/react-image-display-control)
+[this WordPress plugin](/wordpress)
+does, with the help of [a PHP library](/php) for extracting image metadata.
+This can also be achieved on a Node.js back-end with the help of
+[this TypeScript library](/javascript). In fact we have created
+[this React component](/react)
 that does all this for you by serving the web component and running the
 TypeScript library either on your Node.js back-end or in the browser.
 

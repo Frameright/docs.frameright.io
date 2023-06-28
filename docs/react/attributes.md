@@ -49,7 +49,7 @@ component will read it:
 
 The `<ImageDisplayControl>` component will set the `is="image-display-control"`
 attribute on all its `<img>`-like direct children, in order to turn them into
-[Image Display Control web components](https://github.com/Frameright/image-display-control-web-component).
+[Image Display Control web components](/web-component).
 
 #### `sizes=` and `style=` attributes
 
@@ -127,7 +127,7 @@ This would look like:
 ## Parent DOM element's attributes
 
 By default the
-[Image Display Control web component](https://github.com/Frameright/image-display-control-web-component)
+[Image Display Control web component](/web-component)
 will add `contain: paint;` to the `style=` attribute of its parent DOM element.
 This is called
 [CSS containment](/web-component/css-containment)
