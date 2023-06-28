@@ -25,7 +25,7 @@ Attributes and properties can be set at three different levels:
 </div>
 ```
 
-## `img`-like children's attributes and properties
+## `<img>`-like children's attributes and properties
 
 ### Standard attributes and properties
 
@@ -38,7 +38,7 @@ component. With a few caveats:
 The `src=` attribute is supported and mandatory. The `<ImageDisplayControl>`
 component will read it:
 
-- in order to determine if the child is an `img`-like child,
+- in order to determine if the child is an `<img>`-like child,
 - in order to parse the image's metadata containing the Image Regions.
 
 > **NOTE**: if the `src=` attribute points to another domain as the one hosting

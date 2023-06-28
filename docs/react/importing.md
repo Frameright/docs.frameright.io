@@ -34,9 +34,7 @@ you need to set `config.resolve.fallback = { fs: false };` in your
 `next.config.js` in order to be able to import the React component. Your file
 should look like this:
 
-```js
-// next.config.js
-
+```js title=next.config.js
 module.exports = {
   webpack: (config) => {
     config.resolve.fallback = { fs: false };

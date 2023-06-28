@@ -6,8 +6,8 @@ tags:
 
 # Web Component
 
-[![npm version](https://img.shields.io/npm/v/@frameright/image-display-control-web-component)](https://www.npmjs.com/package/@frameright/image-display-control-web-component)
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@frameright/image-display-control-web-component)
+[![npm](https://img.shields.io/npm/v/@frameright/image-display-control-web-component)](https://www.npmjs.com/package/@frameright/image-display-control-web-component)
+[![webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@frameright/image-display-control-web-component)
 
 <!--
 WARNINGS:
@@ -20,13 +20,14 @@ WARNINGS:
   there.
 -->
 
-# `<img is="image-display-control">`
+#### `<img is="image-display-control">`
 
-## Image Display Control Web Component
+#### Image Display Control Web Component
+
+https://github.com/Frameright/image-display-control-web-component
 
 An easy way to do [Image Display Control](https://frameright.io) in your HTML
-page. Made with :heart: by [Frameright](https://frameright.io). Power to the
-pictures!
+page.
 
 &emsp; :sparkles: [Live mobile demo](https://webc.frameright.io)
 
@@ -37,9 +38,9 @@ pictures!
 > **NOTE**: if you are using React, you may want to have a look at the
 > [Image Display Control React component](/react) instead.
 
-### Overview
+## Overview
 
-#### Without this web component
+### Without this web component
 
 When an image is too big for its `<img>` HTML element, the best option browsers
 offer nowadays is to use the
@@ -61,7 +62,7 @@ This is less than optimal, as there might be, in the example above, a better
 square-ish region in the image that could be displayed instead of the
 middle-crop.
 
-#### Basic usage
+### Basic usage
 
 This web component extends the `<img>` tag with the ability to accept a list of
 image regions, and to zoom in on the best one for the current element size:
@@ -107,7 +108,7 @@ resized, e.g. when the user turns their phone from portrait to landscape.
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
-#### Why a custom `img` element?
+### Why a custom `img` element?
 
 In order to have existing CSS rules in a project able to target indifferently
 classic `<img>` elements and our web component, two options exist:
@@ -138,7 +139,7 @@ CSS rules to also target the new parent, which is not ideal.
 This is why we went with the first option, which doesn't require any CSS changes
 in existing projects.
 
-### Image Display Control metadata
+## Image Display Control metadata
 
 Nowadays an image file (e.g. JPEG, PNG) can contain this type of image regions
 in their metadata according to
@@ -158,7 +159,7 @@ Photographers, or anyone else, can use the
 [Frameright app](https://frameright.app/) to define and store image regions in
 the metadata of their pictures.
 
-### Installation
+## Installation
 
 Provided that you are using a bundler (e.g. [Webpack](https://webpack.js.org/)
 or [Rollup](https://rollupjs.org/)), you can add the web component to your
@@ -181,7 +182,7 @@ or get it from a
 &emsp; :floppy_disk:
 [Importing in your project](importing)
 
-### Usage
+## Usage
 
 ```html
 <html>
@@ -224,13 +225,13 @@ or get it from a
 
 &emsp; :sparkles: [Live mobile demo](https://webc.frameright.io)
 
-### Dependency tree / credits
+## Dependency tree / credits
 
 - [ungap/custom-elements](https://github.com/ungap/custom-elements), a polyfill
   for web components on Safari. Many thanks to
   [WebReflection](https://github.com/WebReflection)!
 
-### Browser support
+## Browser support
 
 From scratch the web component should work on:
 

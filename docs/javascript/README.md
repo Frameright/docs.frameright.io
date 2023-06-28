@@ -6,7 +6,7 @@ tags:
 
 # JavaScript Library
 
-[![npm version](https://img.shields.io/npm/v/@frameright/image-display-control-metadata-parser)](https://www.npmjs.com/package/@frameright/image-display-control-metadata-parser)
+[![npm](https://img.shields.io/npm/v/@frameright/image-display-control-metadata-parser)](https://www.npmjs.com/package/@frameright/image-display-control-metadata-parser)
 
 <!--
 WARNINGS:
@@ -19,11 +19,12 @@ WARNINGS:
   there.
 -->
 
-# Image Display Control metadata parsing library
+#### Image Display Control metadata parsing library
+
+https://github.com/Frameright/image-display-control-metadata-parser
 
 An easy way to retrieve [Image Display Control](https://frameright.io) metadata
-out of images. Made with :heart: by [Frameright](https://frameright.io). Power
-to the pictures!
+out of images.
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
@@ -87,9 +88,8 @@ easily retrieve this metadata.
 
 ### In a Node.js back-end
 
-```jsx
+```jsx title=./myscript.mjs
 #!/usr/bin/env node
-// ./myscript.mjs
 
 import { promises as fs } from 'fs';
 

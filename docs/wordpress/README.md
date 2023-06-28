@@ -6,7 +6,7 @@ tags:
 
 # WordPress Plugin
 
-[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/image-display-control)](https://wordpress.org/plugins/image-display-control/)
+[![WordPress Directory](https://img.shields.io/wordpress/plugin/v/image-display-control)](https://wordpress.org/plugins/image-display-control/)
 
 <!--
 WARNING: Bits of information here are duplicated in several places:
@@ -16,10 +16,11 @@ WARNING: Bits of information here are duplicated in several places:
 Make sure to keep them in sync.
 -->
 
-# Image Display Control WordPress Plugin
+#### Image Display Control WordPress Plugin
 
-An easy way to leverage image region metadata on your site. Made with :heart:
-by [Frameright](https://frameright.io). Power to the pictures!
+https://github.com/Frameright/image-display-control-wordpress
+
+An easy way to leverage image region metadata on your site.
 
 ## Which image metadata?
 

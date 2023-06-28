@@ -6,7 +6,7 @@ tags:
 
 # Contributing
 
-## :floppy_disk: Code formatting
+## Code formatting
 
 Pull and run [prettier](https://github.com/prettier/plugin-php) with:
 
@@ -15,7 +15,7 @@ npm install
 npm run format
 ```
 
-## :memo: Validating
+## Validating
 
 ### Running the unit tests
 
@@ -46,8 +46,8 @@ First pull the
 in to `wpcs/` by running:
 
 ```bash
-$ docker run --rm -it --volume $PWD:/app -u `id -u`:`id -g` \
-    composer:1.10.19 create-project wp-coding-standards/wpcs --no-dev
+docker run --rm -it --volume $PWD:/app -u `id -u`:`id -g` \
+  composer:1.10.19 create-project wp-coding-standards/wpcs --no-dev
 ```
 
 > **NOTE**: We're using a
@@ -76,10 +76,10 @@ Finally pull the
 with:
 
 ```bash
-$ pushd wpcs/
-$ docker run --rm -it --volume $PWD:/app -u `id -u`:`id -g` \
-    composer:1.10.19 require --dev phpcompatibility/phpcompatibility-wp:"*"
-$ popd
+cd wpcs/
+docker run --rm -it --volume $PWD:/app -u `id -u`:`id -g` \
+  composer:1.10.19 require --dev phpcompatibility/phpcompatibility-wp:"*"
+cd ../
 ```
 
 #### Running PHP_CodeSniffer
@@ -90,7 +90,7 @@ Run PHP_CodeSniffer with:
 composer lint
 ```
 
-## :gift: Releasing
+## Releasing
 
 ### Version number
 
@@ -162,6 +162,7 @@ Check out the repository:
 cd ../
 svn co https://plugins.svn.wordpress.org/image-display-control
 cd image-display-control/
+svn update
 ```
 
 ### Commit to SVN

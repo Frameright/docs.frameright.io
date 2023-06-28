@@ -6,7 +6,7 @@ tags:
 
 # PHP Library
 
-[![Packagist Version](https://img.shields.io/packagist/v/frameright/image-metadata-parser)](https://packagist.org/packages/frameright/image-metadata-parser)
+[![Packagist](https://img.shields.io/packagist/v/frameright/image-metadata-parser)](https://packagist.org/packages/frameright/image-metadata-parser)
 
 <!--
 WARNING: Bits of information here are duplicated in several places:
@@ -15,7 +15,9 @@ WARNING: Bits of information here are duplicated in several places:
 Make sure to keep them in sync.
 -->
 
-# Image metadata parsing library (PHP 5.5+)
+#### Image metadata parsing library (PHP 5.5+)
+
+https://github.com/Frameright/php-image-metadata-parser
 
 > **NOTE**: this is based on
 > [dchesterton/image](https://github.com/dchesterton/image). Many thanks to
@@ -39,9 +41,9 @@ Supported image meta types:
 ## Installation
 
 Pull the library in your project via [Composer](https://getcomposer.org/)
-with the following `composer.json`:
+with:
 
-```json
+```json title="composer.json"
 {
   "minimum-stability": "dev",
   "repositories": [

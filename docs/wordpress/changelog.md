@@ -13,19 +13,19 @@ WARNING: Bits of information here are duplicated in several places:
 Make sure to keep them in sync.
 -->
 
-## 1.0.0 (2023-06-28)
+### 1.0.0 (2023-06-28)
 
 - Moved documentation to https://docs.frameright.io/wordpress
 
-## 0.1.2 (2023-04-03)
+### 0.1.2 (2023-04-03)
 
 - Marked as validated with WordPress 6.2.
 
-## 0.1.1 (2023-03-07)
+### 0.1.1 (2023-03-07)
 
 - Added tutorial video.
 
-## 0.1.0 (2023-03-07)
+### 0.1.0 (2023-03-07)
 
 - Fixed web component sometimes not initializing properly.
 - Added support for older browsers. See [here](/web-component/browsers) for more details.
@@ -36,22 +36,22 @@ Make sure to keep them in sync.
 - Fixed several bugs that were happening with some specific themes, like the plugin doing nothing or the image regions being wrong.
 - Stopped generating hardcrops in the media library.
 
-## 0.0.5 (2023-01-26)
+### 0.0.5 (2023-01-26)
 
 - Switched to rendering a [web component](/web-component) on the front-end.
 
-## 0.0.4 (2022-11-05)
+### 0.0.4 (2022-11-05)
 
 - Improved documentation.
 
-## 0.0.3 (2022-11-03)
+### 0.0.3 (2022-11-03)
 
 - Renamed software components to avoid name clashes with other plugins.
 
-## 0.0.2 (2022-10-31)
+### 0.0.2 (2022-10-31)
 
 - Improved algorithm for automatically selecting the best hardcrop.
 
-## 0.0.1 (2022-10-27)
+### 0.0.1 (2022-10-27)
 
 - Initial Release.

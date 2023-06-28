@@ -95,9 +95,7 @@ If you are using [Vite](https://vitejs.dev/), you can serve the web component's
 to the front-end by simply importing it in your React component's
 implementation:
 
-```js
-// src/MyComponent.tsx
-
+```jsx title=src/MyComponent.tsx
 import "@frameright/image-display-control-web-component/image-display-control.js";
 
 export default function MyComponent() {
@@ -113,9 +111,7 @@ If you are using [vite-plugin-ssr](https://vite-plugin-ssr.com/), you can serve
 the web component's code to the front-end by conditionally importing it in your
 React component's implementation:
 
-```js
-// src/MyComponent.tsx
-
+```jsx title=src/MyComponent.tsx
 // Import only in the browser, not in the back-end
 if (typeof window !== "undefined") {
   // Defines the <img is="image-display-control"> web component.

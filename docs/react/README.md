@@ -6,7 +6,7 @@ tags:
 
 # React Component
 
-[![npm version](https://img.shields.io/npm/v/@frameright/react-image-display-control)](https://www.npmjs.com/package/@frameright/react-image-display-control)
+[![npm](https://img.shields.io/npm/v/@frameright/react-image-display-control)](https://www.npmjs.com/package/@frameright/react-image-display-control)
 
 <!--
 WARNINGS:
@@ -19,11 +19,12 @@ WARNINGS:
   there.
 -->
 
-# Image Display Control React Component
+#### Image Display Control React Component
+
+https://github.com/Frameright/react-image-display-control
 
 An easy way to do [Image Display Control](https://frameright.io) in your React
-web app. Made with :heart: by [Frameright](https://frameright.io). Power
-to the pictures!
+web app.
 
 &emsp; :sparkles: [Live mobile demo](https://react.frameright.io)
 
@@ -137,9 +138,7 @@ npm install @frameright/react-image-display-control
 
 ## Usage
 
-```tsx
-// src/MyComponent.tsx
-
+```tsx title=src/MyComponent.tsx
 import { ImageDisplayControl } from '@frameright/react-image-display-control';
 
 export default function MyComponent() {

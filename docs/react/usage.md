@@ -11,9 +11,7 @@ tags:
 A simple demo is available in [`example/`](example). A more comprehensive
 example could look like this:
 
-```tsx
-// /src/MyApp.tsx
-
+```tsx title=/src/MyApp.tsx
 // npm install @frameright/react-image-display-control
 import { ImageDisplayControl } from '@frameright/react-image-display-control';
 
@@ -70,7 +68,7 @@ region from each image's metadata.
 
 It touches on the following aspects.
 
-## `img`-like direct children
+## `<img>`-like direct children
 
 The `<ImageDisplayControl>` component adds
 [Image Display Control](https://frameright.io) functionality to any of its

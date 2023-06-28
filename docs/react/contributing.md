@@ -8,7 +8,7 @@ tags:
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
 
-## :floppy_disk: Code formatting
+## Code formatting
 
 Pull and run [ESLint](https://eslint.org/) and
 [prettier](https://github.com/prettier/prettier) with:
@@ -19,7 +19,7 @@ npm run lint    # check for errors
 npm run format  # fix errors
 ```
 
-## :memo: Validating
+## Validating
 
 ### Running the unit tests
 
@@ -44,7 +44,7 @@ cd example/
 
 &emsp; 💻 [CodeSandbox](https://codesandbox.io/s/image-display-control-react-component-m6qj9r)
 
-## :bookmark_tabs: Documenting
+## Documenting
 
 ### (Re-)generating tables of contents
 
@@ -56,7 +56,7 @@ npm install
 npm run gentoc
 ```
 
-## :gift: Releasing
+## Releasing
 
 ### Version number
 

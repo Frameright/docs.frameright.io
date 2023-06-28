@@ -38,9 +38,7 @@ the `data-path-on-server=` property on the component's `<img>`-like children.
 
 This looks like this:
 
-```tsx
-// /src/MyApp.tsx
-
+```tsx title=/src/MyApp.tsx
 // npm install @frameright/react-image-display-control
 import { ImageDisplayControl } from '@frameright/react-image-display-control';
 
@@ -82,9 +80,7 @@ This allows us to provide some syntactic sugar: instead of passing a
 `data-path-on-server=` property, you can set a `pathOnServer` property on the
 `StaticImageData` object. This looks like this:
 
-```tsx
-// /pages/MyPage.tsx
-
+```tsx title=/pages/MyPage.tsx
 import Image from 'next/image';
 
 // npm install @frameright/react-image-display-control
