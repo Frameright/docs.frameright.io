@@ -121,7 +121,7 @@ Finally clean up by running:
 rm frameright-react-image-display-control-1.2.3.tgz
 ```
 
-### Publish the package to NPM
+### Publish the package to npm
 
 ```bash
 npm login --scope=@frameright

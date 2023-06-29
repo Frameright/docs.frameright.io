@@ -2,6 +2,7 @@
 sidebar_position: 60
 tags:
   - explanation
+pagination_prev: null
 ---
 
 # WordPress Plugin
@@ -17,8 +18,6 @@ Make sure to keep them in sync.
 -->
 
 #### Image Display Control WordPress Plugin
-
-https://github.com/Frameright/image-display-control-wordpress
 
 An easy way to leverage image region metadata on your site.
 

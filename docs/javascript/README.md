@@ -2,6 +2,7 @@
 sidebar_position: 40
 tags:
   - explanation
+pagination_prev: null
 ---
 
 # JavaScript Library
@@ -15,13 +16,11 @@ WARNINGS:
     * https://github.com/Frameright/image-display-control-metadata-parser
   Make sure to keep them in sync.
 * Make sure all URLs in this document are absolute, and not relative within
-  GitHub, as we are publishing this file to NPM and want URLs to remain valid
+  GitHub, as we are publishing this file to npm and want URLs to remain valid
   there.
 -->
 
 #### Image Display Control metadata parsing library
-
-https://github.com/Frameright/image-display-control-metadata-parser
 
 An easy way to retrieve [Image Display Control](https://frameright.io) metadata
 out of images.

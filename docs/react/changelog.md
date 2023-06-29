@@ -17,7 +17,7 @@ tags:
 
 ### 1.0.1 (2023-06-09)
 
-- Fixed link on NPM.
+- Fixed link on npm.
 
 ### 1.0.0 (2023-06-09)
 

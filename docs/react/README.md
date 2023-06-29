@@ -2,6 +2,7 @@
 sidebar_position: 20
 tags:
   - explanation
+pagination_prev: null
 ---
 
 # React Component
@@ -15,13 +16,11 @@ WARNINGS:
     * https://github.com/Frameright/react-image-display-control
   Make sure to keep them in sync.
 * Make sure all URLs in this document are absolute, and not relative within
-  GitHub, as we are publishing this file to NPM and want URLs to remain valid
+  GitHub, as we are publishing this file to npm and want URLs to remain valid
   there.
 -->
 
 #### Image Display Control React Component
-
-https://github.com/Frameright/react-image-display-control
 
 An easy way to do [Image Display Control](https://frameright.io) in your React
 web app.

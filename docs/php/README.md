@@ -2,6 +2,7 @@
 sidebar_position: 50
 tags:
   - explanation
+pagination_prev: null
 ---
 
 # PHP Library
@@ -16,8 +17,6 @@ Make sure to keep them in sync.
 -->
 
 #### Image metadata parsing library (PHP 5.5+)
-
-https://github.com/Frameright/php-image-metadata-parser
 
 > **NOTE**: this is based on
 > [dchesterton/image](https://github.com/dchesterton/image). Many thanks to
