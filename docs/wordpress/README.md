@@ -63,6 +63,6 @@ displayed in.
 
 When rendering a post or a page, the plugin looks for images that have _Image
 Region_ metadata and replaces them on the front-end with a
-[web component](/web-component)
+[web component](../web-component/README.md)
 automatically zooming on the best suited _Image Region_, effectively
 doing better than a classical middle-crop.

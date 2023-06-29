@@ -8,7 +8,7 @@ tags:
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
 
-A simple demo is available in [`example/`](example). A more comprehensive
+A simple demo is available in [`example/`](example.md). A more comprehensive
 example could look like this:
 
 ```tsx title=/src/MyApp.tsx
@@ -62,7 +62,7 @@ export function MyApp() {
 ```
 
 This example turns three `<img>`-like elements/components into
-[Image Display Control web components](/web-component)
+[Image Display Control web components](../web-component/README.md)
 which are going to automatically/responsively zoom in on the most suitable
 region from each image's metadata.
 
@@ -86,15 +86,15 @@ The `<ImageDisplayControl>` component adds
   supported, e.g. `src=`, `alt=`, `width=`, etc.
 - All `data-*=` attributes specific to the underlying web component are
   supported, e.g. `data-avoid-no-region=`. See the web component's attribute
-  [reference](/web-component/attribute-ref)
+  [reference](../web-component/attribute-ref)
   for more details.
 - Additional `data-*=` attributes/properties exist:
   - on the children (e.g. `data-path-on-server=` for
-    [server-side rendering](ssr)),
+    [server-side rendering](ssr.md)),
   - on the `<ImageDisplayControl>` component (e.g. `data-debug` for debugging),
   - on its DOM parent (e.g. `data-idc-parent` for guiding developers).
 
-See [attributes and properties](attributes) for more details.
+See [attributes and properties](attributes.md) for more details.
 
 ## CSS styling
 
@@ -102,7 +102,7 @@ The usual ways of styling the `<img>`-like children are supported, e.g.
 `width:`, `border:`, `padding:`, etc. However some CSS properties have
 limitations due to the underlying web component's implementation. See the web
 component's CSS styling
-[documentation](/web-component/styling) for more details.
+[documentation](../web-component/styling.md) for more details.
 
 ## HTML and CSS sizing
 
@@ -121,11 +121,11 @@ The React component can be imported anywhere in your code with a static
 `import` statement, no matter if this portion of the code is to be executed on
 the server, on the client, or at build time for static site generation.
 
-See [Importing in your project](importing) for more details.
+See [Importing in your project](importing.md) for more details.
 
 In order to make server-side rendering (or static site generation) possible:
 
 - import the image file statically,
 - pass the path to the image file on disk to the corresponding child.
 
-See [Server-side rendering](ssr) for more details.
+See [Server-side rendering](ssr.md) for more details.

@@ -36,7 +36,7 @@ Supported image meta types:
 - ~~EXIF~~
 
 > **NOTE**: a TypeScript equivalent of this library is available
-> [here](/javascript).
+> [here](../javascript/README.md).
 
 ## Installation
 

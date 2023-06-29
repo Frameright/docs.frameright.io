@@ -28,7 +28,7 @@ Make sure to keep them in sync.
 ### 0.1.0 (2023-03-07)
 
 - Fixed web component sometimes not initializing properly.
-- Added support for older browsers. See [here](/web-component/browsers) for more details.
+- Added support for older browsers. See [here](../web-component/browsers.md) for more details.
 - Improved resolution of images having an `srcset=` HTML attribute when zooming in on a region.
 - Now forcing the web component to select a region and zoom in on it, instead of rendering the full original image.
 - Fixed crash when uploading non-image files.
@@ -38,7 +38,7 @@ Make sure to keep them in sync.
 
 ### 0.0.5 (2023-01-26)
 
-- Switched to rendering a [web component](/web-component) on the front-end.
+- Switched to rendering a [web component](../web-component/README.md) on the front-end.
 
 ### 0.0.4 (2022-11-05)
 

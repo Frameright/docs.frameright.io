@@ -24,7 +24,7 @@ If any of these features are not supported by the browser, the web component
 will disable itself and fall back to behaving like a standard `<img>` tag.
 
 This behavior can be simulated by setting the `data-disabled="all"` HTML
-attribute. See the [Attribute reference](attribute-ref) for more
+attribute. See the [Attribute reference](attribute-ref.md) for more
 information.
 
 ## `ResizeObserver` polyfill
@@ -55,5 +55,5 @@ Even if the browser does not support the `contain` CSS property, it is possible
 to make use of the web component by telling it what to do instead when this
 browser feature isn't available. This can be done by setting the
 `data-css-contain-fallback=` HTML attribute. See
-[CSS containment](css-containment) and the
-[Attribute reference](attribute-ref) for more information.
+[CSS containment](css-containment.md) and the
+[Attribute reference](attribute-ref.md) for more information.

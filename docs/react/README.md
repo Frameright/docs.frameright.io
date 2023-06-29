@@ -45,7 +45,7 @@ existing project, e.g.:
   whether you define them yourself or whether they are generated on your behalf
   by another component like
   [Next.js `<Image>`](https://nextjs.org/docs/api-reference/next/image),
-- [server-side rendering](ssr) and static site generation, e.g. in a Next.js or
+- [server-side rendering](ssr.md) and static site generation, e.g. in a Next.js or
   in a Vite-based project.
 
 It doesn't change the structure of your DOM: your existing CSS rules still
@@ -56,7 +56,7 @@ apply.
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
 
 > **NOTE**: if you are not using React, you may want to have a look at the
-> [Image Display Control Web component](/web-component)
+> [Image Display Control Web component](../web-component/README.md)
 > instead.
 
 ### Without this component
@@ -116,9 +116,9 @@ Nowadays an image file (e.g. JPEG, PNG) can contain this type of image regions
 in their metadata according to
 [the IPTC standard](https://iptc.org/std/photometadata/specification/IPTC-PhotoMetadata#image-region).
 This React component uses
-[a library](/javascript) to let the back-end or front-end extract the regions
+[a library](../javascript/README.md) to let the back-end or front-end extract the regions
 from the image file. It then passes them to the `<img>` tag and turns it into
-[a web component](/web-component),
+[a web component](../web-component/README.md),
 which automatically and responsively zooms in on the best region.
 
 Photographers, or anyone else, can use the
@@ -134,7 +134,7 @@ In your [Node.js](https://nodejs.org/en)-based project (e.g. using
 npm install @frameright/react-image-display-control
 ```
 
-&emsp; :floppy_disk: [Importing in your project](importing)
+&emsp; :floppy_disk: [Importing in your project](importing.md)
 
 ## Usage
 

@@ -23,7 +23,7 @@ tags:
 
 - Implemented the `data-path-on-server="none"` attribute to disable warnings
   when the image is not found while performing
-  [server-side rendering](ssr) or static site generation.
+  [server-side rendering](ssr.md) or static site generation.
 
 ### 0.0.1 (2023-05-31)
 

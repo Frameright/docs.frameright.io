@@ -60,13 +60,13 @@ Choose the next version number according to the rules of
 
 Also update the examples to use the new version number:
 
-- in [this documentation](/javascript),
+- in [this documentation](README.md),
 - on [GitHub](https://github.com/Frameright/image-display-control-metadata-parser).
 
 ### Changelog
 
 Describe the changes made compared to the last released version in the
-[changelog](changelog). Browse the git history to make sure nothing has been
+[changelog](changelog.md). Browse the git history to make sure nothing has been
 left out.
 
 ### Update `package-lock.json`

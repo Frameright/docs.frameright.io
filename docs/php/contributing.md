@@ -21,7 +21,7 @@ composer test
 ### Changelog and version number
 
 Describe the changes made compared to the last released version in the
-[changelog](changelog). Browse the git history to make sure nothing has
+[changelog](changelog.md). Browse the git history to make sure nothing has
 been left out.
 
 Choose the next version number according to the rules of

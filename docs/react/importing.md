@@ -19,7 +19,7 @@ npm install @frameright/react-image-display-control
 ```
 
 No matter whether your code is intended to run in the browser, during
-[server-side rendering](ssr) or at build time for building static pages, you
+[server-side rendering](ssr.md) or at build time for building static pages, you
 can import the React component anywhere with:
 
 ```js

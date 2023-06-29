@@ -10,7 +10,7 @@ tags:
 
 Any [Node.js](https://nodejs.org/en)-based, [React](https://react.dev/)-based
 bundled environment, with or without
-[server-side rendering](ssr),
+[server-side rendering](ssr.md),
 should be supported. We have validated:
 
 - [Vite](https://vitejs.dev/) 4.3.2,
@@ -31,13 +31,13 @@ and has an `src=` attribute should be supported. We have validated:
 ## Supported image formats
 
 Image formats that are both commonly supported by browsers and supported by the
-[Frameright Image Display Control metadata parser](/javascript)
+[Frameright Image Display Control metadata parser](../javascript/README.md)
 should be supported. We have validated JPEG, PNG and WebP.
 
 ## Supported browsers
 
 The browsers supported by the
-[Frameright Image Display Control web component](/web-component)
+[Frameright Image Display Control web component](../web-component/README.md)
 are supported:
 
 - Chrome 64+ (2018)
@@ -46,4 +46,4 @@ are supported:
 
 More support can be achieved with a few tweaks:
 
-&emsp; :mag: [Browser support](/web-component/browsers)
+&emsp; :mag: [Browser support](../web-component/browsers.md)

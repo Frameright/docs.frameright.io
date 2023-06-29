@@ -26,7 +26,7 @@ set the following CSS properties via the `<img style="` HTML attribute:
 This will probably override any CSS styling you have set for these properties.
 You can disable this behavior by setting the `<img data-disabled="all" />` HTML
 attribute. The element will then behave like a standard `<img>` element. See the
-[Attribute reference](attribute-ref) for more details.
+[attribute reference](attribute-ref.md) for more details.
 
 ## `border:` and `padding:` properties
 
@@ -46,7 +46,7 @@ applying borders and padding to that instead.
 
 **NOTE**: when using the `<img data-debug-draw-regions="on" />` HTML attribute,
 the web component will always disable borders and padding. See the
-[Attribute reference](attribute-ref) for more details.
+[attribute reference](attribute-ref.md) for more details.
 
 ## `contain:` and `overflow:` properties on the parent element
 
@@ -56,6 +56,6 @@ the web component sets CSS `contain: paint;` on its parent element.
 
 On older browsers and depending on the `data-disabled=` and
 `data-css-contain-fallback=` HTML attributes it may set `overflow: hidden;` on
-its parent element instead. See [CSS containment](css-containment),
-[Browser support](browsers) and
-[Attribute reference](attribute-ref) for more details.
+its parent element instead. See [CSS containment](css-containment.md),
+[browser support](browsers.md) and
+[attribute reference](attribute-ref.md) for more details.

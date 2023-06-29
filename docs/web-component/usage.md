@@ -8,7 +8,7 @@ tags:
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
-A comprehensive demo is available under [`demo/`](demo), covering various
+A comprehensive demo is available under [`demo/`](demo.md), covering various
 aspects of the web component. A typical example could look like this:
 
 ```html
@@ -79,7 +79,7 @@ This example creates an [Image Display Control](https://frameright.io) web
 component automatically zooming in on one of the two regions of a hypothetical
 image of cats:
 
-![Cats](/img/web-component/cats.png)
+![Cats](../../static/img/web-component/cats.png)
 
 It touches on the following aspects.
 
@@ -97,14 +97,14 @@ It touches on the following aspects.
   candidates: `cats-1024x512.jpg`, `cats-768x384.jpg` and `cats.jpg`, which
   should be at least `2000px` wide.
 
-See [HTML attributes](html-attrs) for more details.
+See [HTML attributes](html-attrs.md) for more details.
 
 ## CSS styling
 
 The usual ways of styling an `<img>` element are supported, e.g. `width:`,
 `border:`, `padding:`, etc.
 
-See [CSS styling](styling) for more details.
+See [CSS styling](styling.md) for more details.
 
 ## HTML and CSS sizing
 
@@ -122,4 +122,4 @@ See [CSS styling](styling) for more details.
 The web component would typically be bundled inside your web app project, using
 e.g. [Webpack](https://webpack.js.org/) or [Rollup](https://rollupjs.org/).
 
-See [Importing in your project](importing) for more details.
+See [importing in your project](importing.md) for more details.

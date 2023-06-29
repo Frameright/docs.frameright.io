@@ -35,7 +35,7 @@ npm run test:watch  # interactive watch mode
 ### Running the local demo
 
 Pull and run [Web Dev Server](https://modern-web.dev/docs/dev-server/overview/)
-in order to serve and run [the demo](demo) with:
+in order to serve and run [the demo](demo.md) with:
 
 ```bash
 npm install
@@ -67,14 +67,14 @@ Choose the next version number according to the rules of
 
 Also update the examples to use the new version number:
 
-- in [the main documentation](/web-component),
-- in [the import documentation](importing),
+- in [the main documentation](../web-component/README.md),
+- in [the import documentation](importing.md),
 - on [GitHub](https://github.com/Frameright/image-display-control-web-component).
 
 ### Changelog
 
 Describe the changes made compared to the last released version in the
-[changelog](changelog). Browse the git history to make sure nothing
+[changelog](changelog.md). Browse the git history to make sure nothing
 has been left out.
 
 ### Update `package-lock.json`

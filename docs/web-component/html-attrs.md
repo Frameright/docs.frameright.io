@@ -98,7 +98,7 @@ Because there are now several source images with different resolutions, defining
 image regions with coordinates in pixels wouldn't make much sense. We made it
 possible by specifying a reference `imageWidth`/`imageHeight` based on
 which the regions are defined. See the
-[Attribute reference](attribute-ref) for more details.
+[attribute reference](attribute-ref.md) for more details.
 
 Any changes to the `srcset=` and `sizes=` attributes will be picked up by the
 web component.
@@ -156,7 +156,7 @@ If not set or empty, the console output will start with:
 [idc] Populating rectangle image regions...
 ```
 
-See the [Attribute reference](attribute-ref) for more details.
+See the [attribute reference](attribute-ref.md) for more details.
 
 Any changes to the `id=` attribute will be picked up by the web component.
 
@@ -172,7 +172,7 @@ order to force it to behave like a standard `<img>` tag, use the
 `data-loglevel=` attribute. In order to have the web component draw the image
 regions on top of the image as an overlay for debugging purposes, use the
 `data-debug-draw-regions=` attribute. See the
-[Attribute reference](attribute-ref) for more details and for other
+[attribute reference](attribute-ref.md) for more details and for other
 attributes.
 
 Any changes to the `data-*` attributes will be picked up by the web component.

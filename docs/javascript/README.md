@@ -37,7 +37,7 @@ out of images.
 ## Overview
 
 The
-[Image Display Control web component](/web-component)
+[Image Display Control web component](../web-component/README.md)
 extends the `<img>` tag with the ability to accept a list of
 image regions, and to zoom in on the best one for the current element size, thus
 achieving better results than
@@ -81,8 +81,8 @@ easily retrieve this metadata.
 
 > **NOTES**:
 >
-> - A React component leveraging this library is available [here](/react).
-> - A PHP equivalent of this library is available [here](/php).
+> - A React component leveraging this library is available [here](../react/README.md).
+> - A PHP equivalent of this library is available [here](../php/README.md).
 
 ## Usage
 
@@ -142,7 +142,7 @@ For testing purposes, you can use this library directly in the browser:
 ```
 
 The parsed metadata can then directly be fed to the
-[Image Display Control web component](/web-component).
+[Image Display Control web component](../web-component/README.md).
 
 [This React component](https://github.com/Frameright/react-image-display-control/blob/main/src/index.tsx)
 is an example of doing that.

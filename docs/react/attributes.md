@@ -49,13 +49,13 @@ component will read it:
 
 The `<ImageDisplayControl>` component will set the `is="image-display-control"`
 attribute on all its `<img>`-like direct children, in order to turn them into
-[Image Display Control web components](/web-component).
+[Image Display Control web components](../web-component/README.md).
 
 #### `sizes=` and `style=` attributes
 
 The web component will then responsively tweak the `sizes=` and `style=`
 attributes in the browser, extending anything you might have already set. See
-the web component's attribute [documentation](/web-component/html-attrs) for
+the web component's attribute [documentation](../web-component/html-attrs.md) for
 more details.
 
 > **NOTE**: we are setting
@@ -74,7 +74,7 @@ property.
 
 Any of the web-component-specific `data-*=` attributes are supported. See the
 web component's attribute
-[reference](/web-component/attribute-ref)
+[reference](../web-component/attribute-ref.md)
 for more details.
 
 ##### `data-image-regions=` attribute
@@ -95,7 +95,7 @@ Some more properties on the children are being written or read by the
 
 Use this property to indicate the path of the image file on the server, in order
 to make server-side rendering possible. See
-[Server-side rendering](ssr) for more details.
+[server-side rendering](ssr.md) for more details.
 
 ##### Internal properties
 
@@ -113,7 +113,7 @@ This is subject to change. Do not read or write these properties yourself.
 You can set the `data-debug` boolean property to `true` on the
 `<ImageDisplayControl>` component in order to enable debugging traces in the
 browser's console and, if applicable, in the server's logs (during
-[server-side rendering](ssr)) or in the build logs (during static site
+[server-side rendering](ssr.md)) or in the build logs (during static site
 generation).
 
 This would look like:
@@ -127,10 +127,10 @@ This would look like:
 ## Parent DOM element's attributes
 
 By default the
-[Image Display Control web component](/web-component)
+[Image Display Control web component](../web-component/README.md)
 will add `contain: paint;` to the `style=` attribute of its parent DOM element.
 This is called
-[CSS containment](/web-component/css-containment)
+[CSS containment](../web-component/css-containment.md)
 and is used to avoid unwanted scrollbars.
 
 Because of this, React may notice that the DOM has been tweaked and complain
