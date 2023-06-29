@@ -79,7 +79,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/frameright/frameright_logo.png',
       navbar: {
-        title: 'Frameright',
+        // title: 'Frameright',
         logo: {
           alt: 'Frameright Logo',
           src: 'img/frameright/frameright_logo.png',
@@ -92,14 +92,14 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://www.frameright.io/blog',
-            label: 'Blog',
-            position: 'left',
+            href: 'https://www.frameright.io/image-display-control',
+            label: 'Image Display Control',
+            position: 'right',
           },
           {
             href: 'https://frameright.io',
             label: 'About us',
-            position: 'left',
+            position: 'right',
           },
           {
             href: 'https://frameright.app',
@@ -176,6 +176,10 @@ const config = {
               {
                 label: 'Frameright App',
                 href: 'https://frameright.app',
+              },
+              {
+                label: 'Image Display Control',
+                href: 'https://frameright.io/image-display-control',
               },
               {
                 label: 'Blog',
