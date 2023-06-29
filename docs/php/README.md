@@ -7,8 +7,6 @@ pagination_prev: null
 
 # PHP Library
 
-[![Packagist](https://img.shields.io/packagist/v/frameright/image-metadata-parser)](https://packagist.org/packages/frameright/image-metadata-parser)
-
 <!--
 WARNING: Bits of information here are duplicated in several places:
   * https://docs.frameright.io/php
