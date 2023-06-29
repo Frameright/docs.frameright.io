@@ -23,7 +23,7 @@ Make sure to keep them in sync.
 
 ### 0.1.1 (2023-03-07)
 
-- Added tutorial video.
+- Added [tutorial video](https://www.youtube.com/watch?v=vlyoAPku_NU).
 
 ### 0.1.0 (2023-03-07)
 

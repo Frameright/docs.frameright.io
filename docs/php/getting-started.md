@@ -6,8 +6,6 @@ tags:
 
 # Getting Started
 
-&emsp; :memo: [Tutorial](https://www.frameright.io/post/metadata-in-php)
-
 ## Supported image formats
 
 Currently the library supports JPEG and PNG.
