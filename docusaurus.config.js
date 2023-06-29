@@ -105,8 +105,8 @@ const config = {
             title: 'Documentation',
             items: [
               {
-                label: 'Overview',
-                to: '/overview',
+                label: 'Introduction',
+                to: '/introduction',
               },
               {
                 label: 'React Component',
