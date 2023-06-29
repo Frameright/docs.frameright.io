@@ -8,7 +8,7 @@ tags:
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
-## Standard `img` attributes
+## Standard `<img>` attributes
 
 The web component is a drop-in replacement for the standard `<img>` tag. It
 supports all the

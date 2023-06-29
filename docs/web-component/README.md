@@ -102,7 +102,7 @@ resized, e.g. when the user turns their phone from portrait to landscape.
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
-### Why a custom `img` element?
+### Why a custom `<img>` element?
 
 In order to have existing CSS rules in a project able to target indifferently
 classic `<img>` elements and our web component, two options exist:
