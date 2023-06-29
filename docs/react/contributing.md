@@ -40,10 +40,6 @@ cd example/
 ./clean-build-and-run.sh  # interactive watch mode
 ```
 
-&emsp; :sparkles: [Live mobile demo](https://react.frameright.io)
-
-&emsp; 💻 [CodeSandbox](https://codesandbox.io/s/image-display-control-react-component-m6qj9r)
-
 ## Documenting
 
 ### (Re-)generating tables of contents

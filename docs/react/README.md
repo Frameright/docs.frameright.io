@@ -21,10 +21,6 @@ WARNINGS:
 An easy way to do [Image Display Control](https://frameright.io) in your React
 web app.
 
-&emsp; :sparkles: [Live mobile demo](https://react.frameright.io)
-
-&emsp; 💻 [CodeSandbox](https://codesandbox.io/s/image-display-control-react-component-m6qj9r)
-
 ## Overview
 
 This [React](https://react.dev) component extends any `<img>`-like
@@ -45,8 +41,6 @@ existing project, e.g.:
 
 It doesn't change the structure of your DOM: your existing CSS rules still
 apply.
-
-&emsp; :sparkles: [Live mobile demo](https://react.frameright.io)
 
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
 
@@ -98,12 +92,6 @@ The resulting HTML element is
 [responsive](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 and will automatically reassess the best region to zoom in on when it gets
 resized, e.g. when the user turns their phone from portrait to landscape.
-
-&emsp; :sparkles: [Live mobile demo](https://react.frameright.io)
-
-&emsp; 💻 [CodeSandbox](https://codesandbox.io/s/image-display-control-react-component-m6qj9r)
-
-&emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
 
 ## Image Display Control metadata
 
@@ -162,6 +150,6 @@ Other `<img>`-like elements/components are supported as well, e.g.
 [Next.js `<Image>`s](https://nextjs.org/docs/api-reference/next/image) or
 [React-Bootstrap `<Image>`s](https://react-bootstrap.github.io/components/images/).
 
-&emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
-
 &emsp; :sparkles: [Live mobile demo](https://react.frameright.io)
+
+&emsp; 💻 [CodeSandbox](https://codesandbox.io/s/image-display-control-react-component-m6qj9r)

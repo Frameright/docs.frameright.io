@@ -23,10 +23,6 @@ WARNINGS:
 An easy way to do [Image Display Control](https://frameright.io) in your HTML
 page.
 
-&emsp; :sparkles: [Live mobile demo](https://webc.frameright.io)
-
-&emsp; 💻 [CodeSandbox](https://codesandbox.io/s/image-display-control-web-component-6hzmq5)
-
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
 > **NOTE**: if you are using React, you may want to have a look at the
@@ -99,8 +95,6 @@ resized, e.g. when the user turns their phone from portrait to landscape.
 &emsp; :sparkles: [Live mobile demo](https://webc.frameright.io)
 
 &emsp; 💻 [CodeSandbox](https://codesandbox.io/s/image-display-control-web-component-6hzmq5)
-
-&emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
 ### Why a custom `<img>` element?
 
@@ -213,10 +207,6 @@ or get it from a
 ```
 
 ![Demo](../../static/img/web-component/demo.gif)
-
-&emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
-
-&emsp; :sparkles: [Live mobile demo](https://webc.frameright.io)
 
 ## Dependency tree / credits
 
