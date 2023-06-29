@@ -1,5 +1,5 @@
 ---
-sidebar_position: 100
+sidebar_position: 200
 href: https://github.com/Frameright/react-image-display-control
 title: GitHub repository
 slug: _github-repo

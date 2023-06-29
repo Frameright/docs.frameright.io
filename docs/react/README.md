@@ -7,8 +7,6 @@ pagination_prev: null
 
 # React Component
 
-[![npm](https://img.shields.io/npm/v/@frameright/react-image-display-control)](https://www.npmjs.com/package/@frameright/react-image-display-control)
-
 <!--
 WARNINGS:
 * Bits of information here are duplicated in several places:
@@ -19,8 +17,6 @@ WARNINGS:
   GitHub, as we are publishing this file to npm and want URLs to remain valid
   there.
 -->
-
-#### Image Display Control React Component
 
 An easy way to do [Image Display Control](https://frameright.io) in your React
 web app.

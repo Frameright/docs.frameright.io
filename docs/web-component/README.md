@@ -7,9 +7,6 @@ pagination_prev: null
 
 # Web Component
 
-[![npm](https://img.shields.io/npm/v/@frameright/image-display-control-web-component)](https://www.npmjs.com/package/@frameright/image-display-control-web-component)
-[![webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@frameright/image-display-control-web-component)
-
 <!--
 WARNINGS:
 * Bits of information here are duplicated in several places:
@@ -22,8 +19,6 @@ WARNINGS:
 -->
 
 #### `<img is="image-display-control">`
-
-#### Image Display Control Web Component
 
 An easy way to do [Image Display Control](https://frameright.io) in your HTML
 page.

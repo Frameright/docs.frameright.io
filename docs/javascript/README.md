@@ -7,8 +7,6 @@ pagination_prev: null
 
 # JavaScript Library
 
-[![npm](https://img.shields.io/npm/v/@frameright/image-display-control-metadata-parser)](https://www.npmjs.com/package/@frameright/image-display-control-metadata-parser)
-
 <!--
 WARNINGS:
 * Bits of information here are duplicated in several places:

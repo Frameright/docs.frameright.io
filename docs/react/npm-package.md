@@ -1,8 +1,8 @@
 ---
-sidebar_position: 200
-href: https://github.com/Frameright/php-image-metadata-parser
-title: GitHub repository
-slug: _github-repo
+sidebar_position: 210
+href: https://www.npmjs.com/package/@frameright/react-image-display-control
+title: npm package
+slug: _npm-package
 hide_title: true
 pagination_prev: null
 pagination_next: null
@@ -16,4 +16,4 @@ NOTES:
   dummy page by setting `pagination_next: null` in its front matter.
 -->
 
-https://github.com/Frameright/php-image-metadata-parser
+https://www.npmjs.com/package/@frameright/react-image-display-control

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 100
+sidebar_position: 200
 href: https://github.com/Frameright/image-display-control-web-component
 title: GitHub repository
 slug: _github-repo
