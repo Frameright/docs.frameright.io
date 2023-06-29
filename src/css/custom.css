@@ -50,3 +50,25 @@
   width: 0.85em;
   height: 0.85em;
 }
+
+/* Hide the default pencil icon and replace it with a GitHub icon */
+.theme-edit-this-page svg {
+  display: none;
+}
+.theme-edit-this-page::before {
+  /* See https://stackoverflow.com/questions/19255296/is-there-a-way-to-use-svg-as-content-in-a-pseudo-element-before-or-after */
+  content: '';
+  display: inline-block;
+  background-image: url('/img/thirdparty/github-mark.svg');
+  background-size: 1.2em 1.2em;
+  width: 1.2em;
+  height: 1.2em;
+
+  vertical-align: text-bottom;
+  margin-right: 0.3em;
+}
+
+/* Add an arrow */
+.theme-edit-this-page::after {
+  content: ' ➔';
+}
