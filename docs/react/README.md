@@ -42,8 +42,6 @@ existing project, e.g.:
 It doesn't change the structure of your DOM: your existing CSS rules still
 apply.
 
-&emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
-
 > **NOTE**: if you are not using React, you may want to have a look at the
 > [Image Display Control Web component](../web-component/README.md)
 > instead.

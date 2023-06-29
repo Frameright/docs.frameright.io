@@ -6,8 +6,6 @@ tags:
 
 # Server-side rendering and static site generation
 
-&emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
-
 If your environment supports it, React will not only render the component in the
 browser but also:
 

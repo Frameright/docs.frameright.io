@@ -6,8 +6,6 @@ tags:
 
 # Browser support
 
-&emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
-
 ## Overview
 
 The web component relies on a few browser features, the most recently

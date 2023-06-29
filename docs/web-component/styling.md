@@ -10,8 +10,6 @@ The usual ways of styling an `<img>` element are supported, e.g. `width:`,
 `border:`, `padding:`, etc. However the following CSS properties have now
 limitations.
 
-&emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
-
 ## `object-*:`, `transform*:` and `clip-path:` properties
 
 In order to zoom in on a specific region of the image, the web component will

@@ -6,8 +6,6 @@ tags:
 
 # Importing in your project
 
-&emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
-
 ## Inside a Node.js-based project
 
 You can add the React component to your [Node.js](https://nodejs.org/en)-based

@@ -6,8 +6,6 @@ tags:
 
 # Importing in your project
 
-&emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
-
 ## From a CDN
 
 If you just want to quickly try out the web component, you can get it from a

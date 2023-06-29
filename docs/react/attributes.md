@@ -6,8 +6,6 @@ tags:
 
 # HTML attributes and React properties
 
-&emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
-
 Attributes and properties can be set at three different levels:
 
 ```jsx

@@ -6,8 +6,6 @@ tags:
 
 # Contributing
 
-&emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
-
 ## Code formatting
 
 Pull and run [ESLint](https://eslint.org/) and

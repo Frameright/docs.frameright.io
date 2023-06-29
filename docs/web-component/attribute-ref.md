@@ -9,8 +9,6 @@ tags:
 For a more high-level overview of the attributes, see the
 [HTML attributes](html-attrs.md) page.
 
-&emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
-
 ## `data-image-regions=`
 
 Type: string.

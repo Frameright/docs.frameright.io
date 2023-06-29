@@ -6,8 +6,6 @@ tags:
 
 # Usage
 
-&emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/react-image-display-control/discussions)
-
 A simple demo is available in [`example/`](example.md). A more comprehensive
 example could look like this:
 
