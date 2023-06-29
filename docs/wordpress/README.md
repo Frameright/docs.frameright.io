@@ -7,8 +7,6 @@ pagination_prev: null
 
 # WordPress Plugin
 
-[![WordPress Directory](https://img.shields.io/wordpress/plugin/v/image-display-control)](https://wordpress.org/plugins/image-display-control/)
-
 <!--
 WARNING: Bits of information here are duplicated in several places:
   * https://docs.frameright.io/wordpress
@@ -16,8 +14,6 @@ WARNING: Bits of information here are duplicated in several places:
   * https://github.com/Frameright/image-display-control-wordpress/blob/master/readme.txt
 Make sure to keep them in sync.
 -->
-
-#### Image Display Control WordPress Plugin
 
 An easy way to leverage image region metadata on your site.
 
