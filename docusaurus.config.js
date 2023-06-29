@@ -97,7 +97,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://frameright.io/about',
+            href: 'https://frameright.io',
             label: 'About us',
             position: 'left',
           },
@@ -183,7 +183,7 @@ const config = {
               },
               {
                 label: 'About us',
-                href: 'https://frameright.io/about',
+                href: 'https://frameright.io',
               },
               {
                 label: 'Contact us',
