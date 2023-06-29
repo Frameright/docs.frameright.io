@@ -1,8 +1,8 @@
 ---
-sidebar_position: 201
-href: https://github.com/Frameright/image-display-control-metadata-parser
-title: GitHub repository
-slug: _github-repo
+sidebar_position: 200
+href: https://github.com/Frameright/image-display-control-metadata-parser/blob/main/generated-docs/classes/Parser.md
+title: Reference documentation
+slug: _reference-documentation
 sidebar_class_name: sidebar-external-link
 hide_title: true
 pagination_prev: null
@@ -17,4 +17,4 @@ NOTES:
   dummy page by setting `pagination_next: null` in its front matter.
 -->
 
-https://github.com/Frameright/image-display-control-metadata-parser
+https://github.com/Frameright/image-display-control-metadata-parser/blob/main/generated-docs/classes/Parser.md
