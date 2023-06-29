@@ -30,7 +30,7 @@ page.
 &emsp; :bulb: [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions)
 
 > **NOTE**: if you are using React, you may want to have a look at the
-> [Image Display Control React component]..(/react/README.md) instead.
+> [Image Display Control React component](../react/README.md) instead.
 
 ## Overview
 
