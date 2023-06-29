@@ -119,11 +119,11 @@ The React component can be imported anywhere in your code with a static
 `import` statement, no matter if this portion of the code is to be executed on
 the server, on the client, or at build time for static site generation.
 
-See [Importing in your project](importing.md) for more details.
+See [importing in your project](importing.md) for more details.
 
 In order to make server-side rendering (or static site generation) possible:
 
 - import the image file statically,
 - pass the path to the image file on disk to the corresponding child.
 
-See [Server-side rendering](ssr.md) for more details.
+See [server-side rendering](ssr.md) for more details.
