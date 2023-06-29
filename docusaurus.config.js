@@ -232,11 +232,12 @@ function replaceExternalLinks(items, docs) {
       // external link.
       const document = docs.find((doc) => doc.id === item.id);
       if (document && document.frontMatter.href) {
-        return {
-          type: 'link',
-          label: document.title,
-          href: document.frontMatter.href,
-        };
+        // Turn it into an external link:
+        item.type = 'link';
+        delete item.id;
+        item.label = document.title;
+        item.href = document.frontMatter.href;
+        return item;
       }
     }
     return item;

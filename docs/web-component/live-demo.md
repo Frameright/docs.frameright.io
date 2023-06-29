@@ -3,6 +3,7 @@ sidebar_position: 220
 href: https://webc.frameright.io
 title: Live mobile demo
 slug: _live-demo
+sidebar_class_name: sidebar-external-link
 hide_title: true
 pagination_prev: null
 pagination_next: null

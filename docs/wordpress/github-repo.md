@@ -3,6 +3,7 @@ sidebar_position: 200
 href: https://github.com/Frameright/image-display-control-wordpress
 title: GitHub repository
 slug: _github-repo
+sidebar_class_name: sidebar-external-link
 hide_title: true
 pagination_prev: null
 pagination_next: null

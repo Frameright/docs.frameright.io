@@ -35,3 +35,18 @@
 .footer {
   background-color: var(--ifm-color-primary);
 }
+
+.sidebar-external-link {
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+
+.sidebar-external-link a {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.sidebar-external-link svg {
+  width: 0.85em;
+  height: 0.85em;
+}

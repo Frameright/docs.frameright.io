@@ -3,6 +3,7 @@ sidebar_position: 210
 href: https://www.npmjs.com/package/@frameright/react-image-display-control
 title: npm package
 slug: _npm-package
+sidebar_class_name: sidebar-external-link
 hide_title: true
 pagination_prev: null
 pagination_next: null

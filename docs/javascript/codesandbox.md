@@ -3,6 +3,7 @@ sidebar_position: 230
 href: https://codesandbox.io/s/image-display-control-web-component-6hzmq5
 title: CodeSandbox
 slug: _codesandbox
+sidebar_class_name: sidebar-external-link
 hide_title: true
 pagination_prev: null
 pagination_next: null

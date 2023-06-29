@@ -3,6 +3,7 @@ sidebar_position: 210
 href: https://wordpress.org/plugins/image-display-control/
 title: WordPress Directory
 slug: _wordpress-directory
+sidebar_class_name: sidebar-external-link
 hide_title: true
 pagination_prev: null
 pagination_next: null

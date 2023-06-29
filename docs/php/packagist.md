@@ -3,6 +3,7 @@ sidebar_position: 210
 href: https://packagist.org/packages/frameright/image-metadata-parser
 title: Packagist
 slug: _packagist
+sidebar_class_name: sidebar-external-link
 hide_title: true
 pagination_prev: null
 pagination_next: null
