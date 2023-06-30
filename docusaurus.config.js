@@ -77,7 +77,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/frameright/frameright_logo.png',
+      image: 'img/frameright/frameright_og.png',
       navbar: {
         // title: 'Frameright',
         logo: {
