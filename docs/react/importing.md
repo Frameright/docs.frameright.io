@@ -42,5 +42,5 @@ module.exports = {
 
 Create it if it doesn't exist yet in your project.
 
-See also
-https://stackoverflow.com/questions/64926174/module-not-found-cant-resolve-fs-in-next-js-application
+See also this StackOverflow question:
+[Module not found: Can't resolve 'fs' in Next.js application](https://stackoverflow.com/questions/64926174/module-not-found-cant-resolve-fs-in-next-js-application)

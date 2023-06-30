@@ -152,7 +152,7 @@ export default function MyPage() {
 }
 ```
 
-See also:
+See also these StackOverflow answers to:
 
-- https://stackoverflow.com/questions/68638339/how-come-my-nextjs-public-script-wont-get-bundled/76183248#76183248
-- https://stackoverflow.com/questions/65906449/how-to-add-custom-scripts-bundle-in-nextjs#comment134349556_65906708
+- [How come my NextJS public script won't get bundled?](https://stackoverflow.com/questions/68638339/how-come-my-nextjs-public-script-wont-get-bundled/76183248#76183248)
+- [How to add custom scripts bundle in NextJS](https://stackoverflow.com/questions/65906449/how-to-add-custom-scripts-bundle-in-nextjs#comment134349556_65906708)
