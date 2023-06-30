@@ -8,10 +8,8 @@ tags:
 
 ## Supported web frameworks
 
-Any [Node.js](https://nodejs.org/en)-based, [React](https://react.dev/)-based
-bundled environment, with or without
-[server-side rendering](ssr.md),
-should be supported. We have validated:
+Any Node.js-based, React-based bundled environment, with or without
+[server-side rendering](ssr.md), should be supported. We have validated:
 
 - [Vite](https://vitejs.dev/) 4.3.2,
 - [vite-plugin-ssr](https://vite-plugin-ssr.com/) 0.4.124,

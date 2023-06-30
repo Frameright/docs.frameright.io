@@ -106,10 +106,9 @@ component's CSS styling
 
 - The usual ways of sizing the `<img>`-like children are supported, e.g.
   HTML `width=`, CSS `height:`, etc.
-- The rendered child is
-  [responsive](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
-  and will automatically reassess the best region to zoom in on when it gets
-  resized, e.g. when the user turns their phone from portrait to landscape.
+- The rendered child is responsive and will automatically reassess the best
+  region to zoom in on when it gets resized, e.g. when the user turns their
+  phone from portrait to landscape.
 - A rendered child takes exactly the same space as it would if it didn't have an
   `<ImageDisplayControl>` parent under the same circumstances and styling.
 

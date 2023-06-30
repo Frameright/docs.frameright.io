@@ -23,11 +23,10 @@ web app.
 
 ## Overview
 
-This [React](https://react.dev) component extends any `<img>`-like
-element/component with the ability to retrieve
-[Image Display Control](https://frameright.io) metadata from its image file in
-order to automatically and responsively zoom in on the most interesting part of
-the image.
+This React component extends any `<img>`-like element/component with the ability
+to retrieve Image Display Control metadata from its image file in order to
+automatically and responsively zoom in on the most interesting part of the
+image.
 
 It integrates nicely with other advanced features you may be using in your
 existing project, e.g.:
@@ -86,10 +85,9 @@ for the current element size:
 </ImageDisplayControl>
 ```
 
-The resulting HTML element is
-[responsive](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
-and will automatically reassess the best region to zoom in on when it gets
-resized, e.g. when the user turns their phone from portrait to landscape.
+The resulting HTML element is responsive and will automatically reassess the
+best region to zoom in on when it gets resized, e.g. when the user turns their
+phone from portrait to landscape.
 
 ## Image Display Control metadata
 
@@ -108,8 +106,8 @@ the metadata of their pictures.
 
 ## Installation
 
-In your [Node.js](https://nodejs.org/en)-based project (e.g. using
-[Next.js](https://nextjs.org/) or [Vite](https://vitejs.dev/)) run:
+In your Node.js (e.g. using [Next.js](https://nextjs.org/) or
+[Vite](https://vitejs.dev/)) run:
 
 ```bash
 npm install @frameright/react-image-display-control

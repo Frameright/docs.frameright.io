@@ -108,10 +108,9 @@ See [CSS styling](styling.md) for more details.
 
 - The usual ways of sizing an `<img>` element are supported, e.g. HTML `width=`,
   CSS `height:`, etc.
-- The web component is
-  [responsive](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
-  and will automatically reassess the best region to zoom in on when it gets
-  resized, e.g. when the user turns their phone from portrait to landscape.
+- The web component is responsive and will automatically reassess the best
+  region to zoom in on when it gets resized, e.g. when the user turns their
+  phone from portrait to landscape.
 - The web component takes exactly the same space as a standard `<img>` element
   would under the same circumstances and styling.
 

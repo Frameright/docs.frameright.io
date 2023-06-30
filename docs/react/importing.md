@@ -8,9 +8,8 @@ tags:
 
 ## Inside a Node.js-based project
 
-You can add the React component to your [Node.js](https://nodejs.org/en)-based
-project (e.g. using [Next.js](https://nextjs.org/) or
-[Vite](https://vitejs.dev/)) with:
+You can add the React component to your Node.js-based project (e.g. using
+[Next.js](https://nextjs.org/) or [Vite](https://vitejs.dev/)) with:
 
 ```bash
 npm install @frameright/react-image-display-control

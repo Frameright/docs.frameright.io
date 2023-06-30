@@ -17,4 +17,4 @@ pagination_next: null
   - [image-size](https://github.com/image-size/image-size). Many thanks to
     [netroy](https://github.com/netroy)!
 - [uuid](https://github.com/uuidjs/uuid)
-- [React](https://react.dev/) >= 16
+- React >= 16
