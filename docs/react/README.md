@@ -103,7 +103,7 @@ from the image file. It then passes them to the `<img>` tag and turns it into
 which automatically and responsively zooms in on the best region.
 
 Photographers, or anyone else, can use the
-[Frameright app](https://frameright.app/) to define and store image regions in
+[Frameright webapp](https://frameright.app/) to define and store image regions in
 the metadata of their pictures.
 
 ## Installation
