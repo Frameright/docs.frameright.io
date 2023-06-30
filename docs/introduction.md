@@ -11,7 +11,7 @@ Nowadays images (e.g. JPEG, PNG) can contain regions in their metadata following
 _Image Regions_ are useful for describing specific areas of the image
 (e.g. objects, people) or for indicating how the image should be cropped or
 rotated to best fit a given container. The [Frameright
-app](https://frameright.app/) can be used to define such Image Regions and
+webapp](https://frameright.app/) can be used to define such Image Regions and
 insert them in the metadata of a picture.
 
 By using our open-source components and libraries you can make sure that the
@@ -20,9 +20,6 @@ based on the current size of the image container. No need to manually create
 various versions of the same image for different ratios anymore, to write the
 boilerplate code tying everything together, or to worry about all possible
 device sizes.
-
-If you are building your website with **WordPress**, have a look at our
-[WordPress plugin](wordpress/README.md).
 
 If you are developing a **React** web app, see our
 [React component](react/README.md). Have a look at the
@@ -39,6 +36,10 @@ or server-side. Check out the
 [Node.js tutorial](https://www.frameright.io/post/metadata-in-node-js) or the
 [PHP tutorial](https://www.frameright.io/post/metadata-in-php) for that.
 
-Don't hesitate to reach out to us, e.g. via
+If you are building your website with **WordPress**, have a look at our
+[WordPress plugin](wordpress/README.md).
+
+You can read more about Image Display Control and Frameright at
+[frameright.io](https://www.frameright.io). Don't hesitate to reach out to us, e.g. via
 [GitHub Discussions](https://github.com/Frameright/image-display-control-web-component/discussions).
 Any kinds of contributions and feedback are welcome!

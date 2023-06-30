@@ -228,6 +228,8 @@ function replaceExternalLinks(items, docs) {
         items: replaceExternalLinks(item.items, docs),
       };
     } else if (item.type === 'doc') {
+      // FIXME calling find() for every item potentially makes this O(n^2)
+
       // If this item is known to be a special page, replace it with an
       // external link.
       const document = docs.find((doc) => doc.id === item.id);

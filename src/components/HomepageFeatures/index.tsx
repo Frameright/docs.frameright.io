@@ -16,7 +16,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/frameright/feature_crop.svg').default,
     description: (
       <>
-        Use the <Link href="https://frameright.app">Frameright App</Link> to
+        Use the <Link href="https://frameright.app">Frameright webapp</Link> to
         define regions in your images' metadata.
       </>
     ),
