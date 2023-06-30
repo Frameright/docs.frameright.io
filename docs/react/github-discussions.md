@@ -4,7 +4,6 @@ href: https://github.com/Frameright/react-image-display-control/discussions
 title: GitHub Discussions
 slug: _github-discussions
 sidebar_class_name: sidebar-external-link
-hide_title: true
 pagination_prev: null
 pagination_next: null
 ---
@@ -17,4 +16,8 @@ NOTES:
   dummy page by setting `pagination_next: null` in its front matter.
 -->
 
-https://github.com/Frameright/react-image-display-control/discussions
+import Link from '@docusaurus/Link';
+import IconExternalLink from '@theme/Icon/ExternalLink';
+
+<!-- See https://docusaurus.io/docs/markdown-features/react#available-exports -->
+<Link href={ frontMatter.href }>{ frontMatter.href }<IconExternalLink /></Link>

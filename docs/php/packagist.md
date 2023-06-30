@@ -4,7 +4,6 @@ href: https://packagist.org/packages/frameright/image-metadata-parser
 title: Packagist
 slug: _packagist
 sidebar_class_name: sidebar-external-link
-hide_title: true
 pagination_prev: null
 pagination_next: null
 ---
@@ -17,4 +16,8 @@ NOTES:
   dummy page by setting `pagination_next: null` in its front matter.
 -->
 
-https://packagist.org/packages/frameright/image-metadata-parser
+import Link from '@docusaurus/Link';
+import IconExternalLink from '@theme/Icon/ExternalLink';
+
+<!-- See https://docusaurus.io/docs/markdown-features/react#available-exports -->
+<Link href={ frontMatter.href }>{ frontMatter.href }<IconExternalLink /></Link>
