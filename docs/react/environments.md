@@ -38,9 +38,9 @@ The browsers supported by the
 [Frameright Image Display Control web component](../web-component/README.md)
 are supported:
 
-- Chrome 64+ (2018)
-- Firefox 69+ (2019)
-- Safari 15.4+ (2022)
+- Chrome 64+ (2018 or newer)
+- Firefox 69+ (2019 or newer)
+- Safari 15.4+ (2022 or newer)
 
 More support can be achieved with a few tweaks:
 

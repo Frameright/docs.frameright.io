@@ -92,7 +92,7 @@ Supported values:
 - `force`: Even if the browser is known not to support `contain: paint;`, set
   it anyway.
 
-See [Browser support](browsers.md) and
+See [browser support](browsers.md) and
 [CSS containment](css-containment.md) for more information.
 
 ## `data-disabled=`
@@ -109,7 +109,7 @@ Supported values:
   as if this feature wasn't supported by the browser and follow the fallback
   behavior set by the `data-css-contain-fallback=` attribute.
 
-See [Browser support](browsers.md) and
+See [browser support](browsers.md) and
 [CSS containment](css-containment.md) for more information.
 
 ## `data-loglevel=`

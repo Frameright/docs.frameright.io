@@ -16,5 +16,6 @@ pagination_next: null
     to [mattiasw](https://github.com/mattiasw)!
   - [image-size](https://github.com/image-size/image-size). Many thanks to
     [netroy](https://github.com/netroy)!
-- [uuid](https://github.com/uuidjs/uuid)
+- [uuid](https://github.com/uuidjs/uuid). Many thanks to
+  [ctavan](https://github.com/ctavan) and [broofa](https://github.com/broofa)!
 - React >= 16

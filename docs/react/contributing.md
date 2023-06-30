@@ -67,6 +67,9 @@ left out.
 
 ```bash
 cd example/
+
+# Clean-building and running the local demo will update all package-lock.json
+# files as a side effect. Stop the demo with Ctrl+C when it's done.
 ./clean-build-and-run.sh
 ```
 
