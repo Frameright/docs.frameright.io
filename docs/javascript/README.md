@@ -18,6 +18,8 @@ WARNINGS:
   there.
 -->
 
+import IconExternalLink from '@theme/Icon/ExternalLink';
+
 #### Image Display Control metadata parsing library
 
 An easy way to retrieve [Image Display Control](https://frameright.io) metadata
@@ -102,9 +104,9 @@ This has been
 [validated](https://github.com/Frameright/image-display-control-metadata-parser/blob/main/test/index.test.ts)
 with JPEG, PNG, and WebP images.
 
-&emsp; :memo: [Tutorial](https://www.frameright.io/post/metadata-in-node-js)
+&emsp; :memo: [Tutorial<IconExternalLink />](https://www.frameright.io/post/metadata-in-node-js)
 
-&emsp; :scroll: [Reference](https://github.com/Frameright/image-display-control-metadata-parser/blob/main/generated-docs/classes/Parser.md)
+&emsp; :scroll: [Reference<IconExternalLink />](https://github.com/Frameright/image-display-control-metadata-parser/blob/main/generated-docs/classes/Parser.md)
 
 ### Directly in a browser
 
@@ -140,9 +142,9 @@ The parsed metadata can then directly be fed to the
 [This React component](https://github.com/Frameright/react-image-display-control/blob/main/src/index.tsx)
 is an example of doing that.
 
-&emsp; :sparkles: [Live mobile demo](https://webc.frameright.io)
+&emsp; :sparkles: [Live mobile demo<IconExternalLink />](https://webc.frameright.io)
 
-&emsp; 💻 [CodeSandbox](https://codesandbox.io/s/image-display-control-web-component-6hzmq5)
+&emsp; 💻 [CodeSandbox<IconExternalLink />](https://codesandbox.io/s/image-display-control-web-component-6hzmq5)
 
 ## Image Display Control metadata
 

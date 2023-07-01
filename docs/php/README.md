@@ -14,6 +14,8 @@ WARNING: Bits of information here are duplicated in several places:
 Make sure to keep them in sync.
 -->
 
+import IconExternalLink from '@theme/Icon/ExternalLink';
+
 #### Image metadata parsing library (PHP 5.5+)
 
 > **NOTE**: this is based on
@@ -59,7 +61,7 @@ with:
 
 ## Usage
 
-&emsp; :memo: [Tutorial](https://www.frameright.io/post/metadata-in-php)
+&emsp; :memo: [Tutorial<IconExternalLink />](https://www.frameright.io/post/metadata-in-php)
 
 ### Get metadata
 

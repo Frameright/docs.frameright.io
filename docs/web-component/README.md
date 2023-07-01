@@ -18,6 +18,8 @@ WARNINGS:
   there.
 -->
 
+import IconExternalLink from '@theme/Icon/ExternalLink';
+
 #### `<img is="image-display-control">`
 
 An easy way to do [Image Display Control](https://frameright.io) in your HTML
@@ -89,9 +91,9 @@ The resulting HTML element is responsive and will automatically reassess the
 best region to zoom in on when it gets resized, e.g. when the user turns their
 phone from portrait to landscape.
 
-&emsp; :sparkles: [Live mobile demo](https://webc.frameright.io)
+&emsp; :sparkles: [Live mobile demo<IconExternalLink />](https://webc.frameright.io)
 
-&emsp; 💻 [CodeSandbox](https://codesandbox.io/s/image-display-control-web-component-6hzmq5)
+&emsp; 💻 [CodeSandbox<IconExternalLink />](https://codesandbox.io/s/image-display-control-web-component-6hzmq5)
 
 ### Why a custom `<img>` element?
 
