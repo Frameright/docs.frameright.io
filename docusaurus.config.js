@@ -213,6 +213,12 @@ const config = {
         defaultMode: 'light',
         disableSwitch: true,
       },
+
+      // See https://docusaurus.io/docs/markdown-features/toc#table-of-contents-heading-level
+      tableOfContents: {
+        // Default is 3, which isn't deep enough for some of our pages.
+        maxHeadingLevel: 5,
+      },
     }),
 };
 
