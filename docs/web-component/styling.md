@@ -42,9 +42,13 @@ on a specific region, it temporarily overrides them via
 If possible, consider wrapping the web component in a `<div>` element and
 applying borders and padding to that instead.
 
-**NOTE**: when using the `<img data-debug-draw-regions="on" />` HTML attribute,
+:::caution
+
+When using the `<img data-debug-draw-regions="on" />` HTML attribute,
 the web component will always disable borders and padding. See the
 [attribute reference](attribute-ref.md) for more details.
+
+:::
 
 ## `contain:` and `overflow:` properties on the parent element
 

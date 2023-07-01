@@ -50,11 +50,15 @@ docker run --rm -it --volume $PWD:/app -u `id -u`:`id -g` \
   composer:1.10.19 create-project wp-coding-standards/wpcs --no-dev
 ```
 
-> **NOTE**: We're using a
-> [Composer Docker image](https://hub.docker.com/_/composer/) old enough to
-> contain PHP 7 instead of PHP 8, as the
-> [coding standards don't support PHP 8](https://github.com/WordPress/WordPress-Coding-Standards/issues/2070)
-> yet.
+:::note
+
+We're using a
+[Composer Docker image](https://hub.docker.com/_/composer/) old enough to
+contain PHP 7 instead of PHP 8, as the
+[coding standards don't support PHP 8](https://github.com/WordPress/WordPress-Coding-Standards/issues/2070)
+yet.
+
+:::
 
 Then configure [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
 to know where to find the WordPress coding standards by running:
@@ -100,11 +104,15 @@ Choose the next version number according to the rules of
 - `frameright.php`
 - `readme.txt`
 
-> **NOTES**:
->
-> - [WordPress Readme Documentation](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/)
-> - [WordPress Readme Example](https://wordpress.org/plugins/readme.txt)
-> - [WordPress Readme Validator](https://wordpress.org/plugins/developers/readme-validator/)
+:::note
+
+For more details see:
+
+- [WordPress Readme Documentation](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/)
+- [WordPress Readme Example](https://wordpress.org/plugins/readme.txt)
+- [WordPress Readme Validator](https://wordpress.org/plugins/developers/readme-validator/)
+
+:::
 
 ### Changelog
 
@@ -190,5 +198,9 @@ svn commit -m "1.2.3" --username my-wordpress-username --password 'foo'
 
 Check the result at https://wordpress.org/plugins/image-display-control/
 
-> **NOTE**: Some things on the WordPress Plugin Directory, like search results,
-> may take 72 hours to get updated.
+:::note
+
+Some things on the WordPress Plugin Directory, like search results,
+may take 72 hours to get updated.
+
+:::

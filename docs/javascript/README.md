@@ -25,11 +25,15 @@ import IconExternalLink from '@theme/Icon/ExternalLink';
 An easy way to retrieve [Image Display Control](https://frameright.io) metadata
 out of images.
 
-> **NOTE**: this is a wrapper around
-> [mattiasw/ExifReader](https://github.com/mattiasw/ExifReader) and
-> [image-size](https://github.com/image-size/image-size). Many thanks to
-> [mattiasw](https://github.com/mattiasw), [netroy](https://github.com/netroy),
-> and other contributors!
+:::note
+
+This is a wrapper around
+[mattiasw/ExifReader](https://github.com/mattiasw/ExifReader) and
+[image-size](https://github.com/image-size/image-size). Many thanks to
+[mattiasw](https://github.com/mattiasw), [netroy](https://github.com/netroy),
+and other contributors!
+
+:::
 
 ## Overview
 
@@ -76,10 +80,12 @@ itself, is retrieved by the back-end, and is placed in the front-end's
 This is where this library comes into play: it allows your Node.js back-end to
 easily retrieve this metadata.
 
-> **NOTES**:
->
-> - A React component leveraging this library is available [here](../react/README.md).
-> - A PHP equivalent of this library is available [here](../php/README.md).
+:::info
+
+- A React component leveraging this library is available [here](../react/README.md).
+- A PHP equivalent of this library is available [here](../php/README.md).
+
+:::
 
 ## Usage
 

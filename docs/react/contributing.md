@@ -125,7 +125,11 @@ npm login --scope=@frameright
 npm publish
 ```
 
-> **NOTE**: on the first publication do `npm publish --access public` instead.
+:::tip
+
+On the first publication do `npm publish --access public` instead.
+
+:::
 
 And check that the package looks well-formed at
 `https://www.npmjs.com/package/@frameright/react-image-display-control/v/1.2.3`.

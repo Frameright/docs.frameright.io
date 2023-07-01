@@ -36,12 +36,16 @@ following properties:
 - `width`: Width of the region.
 - `height`: Height of the region.
 
-> **NOTE**: when the
-> [`srcset=`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset)
-> and `sizes=` attributes are used, we have several source images with different
-> resolutions. When stating e.g. `unit=pixel` and `x=50` it would be impossible
-> for the web component to know from which of all the supported resolutions the
-> `x` value relates to. Thus the attributes `imageWidth` and `imageHeight`.
+:::info
+
+When the
+[`srcset=`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset)
+and `sizes=` attributes are used, we have several source images with different
+resolutions. When stating e.g. `unit=pixel` and `x=50` it would be impossible
+for the web component to know from which of all the supported resolutions the
+`x` value relates to. Thus the attributes `imageWidth` and `imageHeight`.
+
+:::
 
 ## `data-image-region-id=`
 
@@ -71,10 +75,14 @@ Supported values:
 - `on` (default): The web component will always prefer to zoom in on a region
   if possible, rather than selecting the full original image.
 
-> **NOTE**: `data-avoid-no-region="on"` is not a guarantee that the web
-> component will always zoom in on a region. For example if there are no
-> regions, or if `data-image-region-id="<no region>"` is set at the same time,
-> the web component will still select the full original image.
+:::info
+
+`data-avoid-no-region="on"` is not a guarantee that the web
+component will always zoom in on a region. For example if there are no
+regions, or if `data-image-region-id="<no region>"` is set at the same time,
+the web component will still select the full original image.
+
+:::
 
 ## `data-css-contain-fallback=`
 
@@ -136,7 +144,11 @@ debugging purposes. Supported values:
 - `on`: Drawing is performed by creating sibling `<div>` elements, giving them
   a border and letting them overlay the image.
 
-> **NOTE**: this will only work if:
->
-> - The web component is not in `data-disabled="all"` mode.
-> - The web component is at the top-right corner of its parent element.
+:::caution
+
+This will only work if:
+
+- the web component is not in `data-disabled="all"` mode, and
+- the web component is at the top-left corner of its parent element.
+
+:::

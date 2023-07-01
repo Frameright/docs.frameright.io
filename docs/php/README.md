@@ -18,9 +18,13 @@ import IconExternalLink from '@theme/Icon/ExternalLink';
 
 #### Image metadata parsing library (PHP 5.5+)
 
-> **NOTE**: this is based on
-> [dchesterton/image](https://github.com/dchesterton/image). Many thanks to
-> [dchesterton](https://github.com/dchesterton)!
+:::note
+
+This is based on
+[dchesterton/image](https://github.com/dchesterton/image). Many thanks to
+[dchesterton](https://github.com/dchesterton)!
+
+:::
 
 Supported image types:
 
@@ -34,8 +38,12 @@ Supported image meta types:
 - IPTC
 - ~~EXIF~~
 
-> **NOTE**: a TypeScript equivalent of this library is available
-> [here](../javascript/README.md).
+:::info
+
+A TypeScript equivalent of this library is available
+[here](../javascript/README.md).
+
+:::
 
 ## Installation
 

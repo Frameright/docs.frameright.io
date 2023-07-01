@@ -43,9 +43,13 @@ existing project, e.g.:
 It doesn't change the structure of your DOM: your existing CSS rules still
 apply.
 
-> **NOTE**: if you are not using React, you may want to have a look at the
-> [Image Display Control Web component](../web-component/README.md)
-> instead.
+:::info
+
+If you are not using React, you may want to have a look at the
+[Image Display Control Web component](../web-component/README.md)
+instead.
+
+:::
 
 ### Without this component
 

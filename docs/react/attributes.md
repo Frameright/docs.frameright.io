@@ -39,9 +39,13 @@ component will read it:
 - in order to determine if the child is an `<img>`-like child,
 - in order to parse the image's metadata containing the Image Regions.
 
-> **NOTE**: if the `src=` attribute points to another domain as the one hosting
-> the page, make sure that the server hosting the image allows
-> [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
+:::caution
+
+If the `src=` attribute points to another domain as the one hosting
+the page, make sure that the server hosting the image allows
+[CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
+
+:::
 
 #### `is=` attribute
 
@@ -56,10 +60,14 @@ attributes in the browser, extending anything you might have already set. See
 the web component's attribute [documentation](../web-component/html-attrs.md) for
 more details.
 
-> **NOTE**: we are setting
-> [`suppressHydrationWarning`](https://legacy.reactjs.org/docs/dom-elements.html#suppresshydrationwarning)
-> on the `<ImageDisplayControl>` component, so that React does not complain about
-> the underlying DOM being tweaked.
+:::note
+
+We are setting
+[`suppressHydrationWarning`](https://legacy.reactjs.org/docs/dom-elements.html#suppresshydrationwarning)
+on the `<ImageDisplayControl>` component, so that React does not complain about
+the underlying DOM being tweaked.
+
+:::
 
 #### `class=` and `className=` properties
 
