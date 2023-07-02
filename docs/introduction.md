@@ -6,7 +6,7 @@ tags:
 
 # Introduction
 
-import { ImageDisplayControl } from '@frameright/react-image-display-control';
+import { ReactIdcDemo } from '@site/src/components/reactIdcDemo';
 
 Nowadays images (e.g. JPEG, PNG) can contain regions in their metadata following
 [this standard](https://iptc.org/std/photometadata/specification/IPTC-PhotoMetadata#image-region).
@@ -16,12 +16,16 @@ rotated to best fit a given container. The [Frameright
 webapp](https://frameright.app/) can be used to define such Image Regions and
 insert them in the metadata of a picture.
 
+<p className="react-idc-demo"><ReactIdcDemo /></p>
+
 By using our open-source components and libraries you can make sure that the
 website your are building will automatically display the best fitting region
 based on the current size of the image container. No need to manually create
 various versions of the same image for different ratios anymore, to write the
 boilerplate code tying everything together, or to worry about all possible
 device sizes.
+
+<p className="react-idc-demo"><ReactIdcDemo animated /></p>
 
 If you are developing a **React** web app, see our
 [React component](react/README.md). Have a look at the

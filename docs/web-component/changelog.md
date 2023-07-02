@@ -7,6 +7,11 @@ pagination_next: null
 
 # Changelog
 
+### 1.1.7 (2023-07-02)
+
+- Fixed crash when using [`data-debug-draw-regions="on"`](attribute-ref.md) in
+  single page applications.
+
 ### 1.1.6 (2023-06-28)
 
 - Moved documentation to https://docs.frameright.io/web-component
@@ -31,8 +36,8 @@ pagination_next: null
 
 ### 1.1.1 (2023-05-09)
 
-- Fixed bug where the image region overlays (for debugging purposes) would not
-  be updated when the image region list changed.
+- Fixed bug where the [image region overlays (for debugging purposes)](html-attrs.md)
+  would not be updated when the image region list changed.
 
 ### 1.1.0 (2023-05-05)
 
@@ -44,7 +49,7 @@ pagination_next: null
 
 ### 0.1.0 (2023-03-03)
 
-- Added `data-avoid-no-region=` attribute.
+- Added [`data-avoid-no-region=` attribute](attribute-ref.md).
 - Added
   [debounce function](https://davidwalsh.name/javascript-debounce-function)
   when setting the `sizes=` attribute in order to avoid blinking on Chrome.
@@ -62,7 +67,7 @@ pagination_next: null
 ### 0.0.7 (2023-02-09)
 
 - Added handling of missing browser features.
-- Added `data-css-contain-fallback=` attribute.
+- Added [`data-css-contain-fallback=` attribute](attribute-ref.md).
 
 ### 0.0.6 (2023-02-07)
 
@@ -71,10 +76,10 @@ pagination_next: null
 
 ### 0.0.5 (2023-02-07)
 
-- Implemented `data-debug-draw-regions=` attribute.
+- Implemented [`data-debug-draw-regions=` attribute](attribute-ref.md).
 - Added `dist/image-display-control.min.js` to npm package in order for it to
   be served on CDNs like [jsDelivr](https://www.jsdelivr.com/).
-- Fixed a bug where `data-disabled=none` would be ignored.
+- Fixed a bug where [`data-disabled=none`](attribute-ref.md) would be ignored.
 
 ### 0.0.4 (2023-02-02)
 

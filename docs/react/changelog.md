@@ -6,6 +6,12 @@ tags:
 
 # Changelog
 
+### 1.0.5 (2023-07-02)
+
+- Fixed crash when using
+  [`data-debug-draw-regions="on"`](../web-component/attribute-ref.md) in
+  single page applications.
+
 ### 1.0.4 (2023-06-28)
 
 - Moved documentation to https://docs.frameright.io/react

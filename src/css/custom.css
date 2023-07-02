@@ -72,3 +72,42 @@
 .theme-edit-this-page::after {
   content: ' ➔';
 }
+
+p.react-idc-demo {
+  text-align: center;
+}
+
+p.react-idc-demo > span.react-idc-demo {
+  display: inline-block;
+  width: min(100%, max(50%, 330px));
+  aspect-ratio: 3 / 2;
+}
+
+span.react-idc-demo > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/*
+ * Note: using a <span> with "display: block;" instead of a <div> as otherwise
+ * we get a warning saying a <div> cannot be a descendant of a <p>. This is
+ * because in theory, it's a bad practice to have anything else than inline
+ * elements inside a <p>. But here we're just using <p> in order to have a
+ * standard paragraph margin under the demo, and we need a "display: block;"
+ * for the demo. This should be fine.
+ */
+.react-idc-demo span[data-idc-parent] {
+  display: block;
+  border-radius: 0.3em;
+  transition: all 0.5s ease;
+}
+
+.react-idc-demo img {
+  /* just follow the parent's size */
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+}
