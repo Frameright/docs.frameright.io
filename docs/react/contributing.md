@@ -10,6 +10,17 @@ import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
 
 <GitHubCornerIcon href="https://github.com/Frameright/react-image-display-control" />
 
+:::info
+
+If you haven't already, check out the source code before proceeding:
+
+```bash
+git clone https://github.com/Frameright/react-image-display-control
+cd react-image-display-control/
+```
+
+:::
+
 ## Code formatting
 
 Pull and run [ESLint](https://eslint.org/) and

@@ -10,6 +10,17 @@ import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
 
 <GitHubCornerIcon href="https://github.com/Frameright/php-image-metadata-parser" />
 
+:::info
+
+If you haven't already, check out the source code before proceeding:
+
+```bash
+git clone https://github.com/Frameright/php-image-metadata-parser
+cd php-image-metadata-parser/
+```
+
+:::
+
 ## Validating
 
 Run the linter and the unit tests with:

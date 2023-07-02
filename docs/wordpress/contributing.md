@@ -10,6 +10,17 @@ import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
 
 <GitHubCornerIcon href="https://github.com/Frameright/image-display-control-wordpress" />
 
+:::info
+
+If you haven't already, check out the source code before proceeding:
+
+```bash
+git clone https://github.com/Frameright/image-display-control-wordpress
+cd image-display-control-wordpress/
+```
+
+:::
+
 ## Code formatting
 
 Pull and run [prettier](https://github.com/prettier/plugin-php) with:

@@ -17,6 +17,17 @@ WARNING: Bits of information here are duplicated in several places:
 Make sure to keep them in sync.
 -->
 
+:::info
+
+If you haven't already, check out the source code before proceeding:
+
+```bash
+git clone https://github.com/Frameright/react-image-display-control
+cd react-image-display-control/
+```
+
+:::
+
 A local demo can be run with:
 
 ```bash
