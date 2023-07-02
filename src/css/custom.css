@@ -72,6 +72,11 @@
 
     height: 7em;
   }
+
+  /* But let's make sure we don't cover the copy-paste button */
+  .code-with-illustration button {
+    z-index: 20;
+  }
 }
 @media (min-width: 1500px) {
   .code-with-illustration > img {
