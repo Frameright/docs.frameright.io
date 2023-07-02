@@ -6,6 +6,8 @@ tags:
 
 # Introduction
 
+import { ImageDisplayControl } from '@frameright/react-image-display-control';
+
 Nowadays images (e.g. JPEG, PNG) can contain regions in their metadata following
 [this standard](https://iptc.org/std/photometadata/specification/IPTC-PhotoMetadata#image-region).
 _Image Regions_ are useful for describing specific areas of the image

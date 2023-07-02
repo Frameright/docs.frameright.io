@@ -220,6 +220,12 @@ const config = {
         maxHeadingLevel: 5,
       },
     }),
+
+  // FIXME workaround for
+  // https://github.com/Frameright/image-display-control-metadata-parser/issues/3
+  //
+  // See https://gist.github.com/sibelius/24f63eef7f43b15dc73c4a0be11bbef8
+  plugins: [require.resolve('./customWebpackConfig')],
 };
 
 // Recursively replaces internal links to special pages like
