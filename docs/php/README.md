@@ -16,7 +16,7 @@ Make sure to keep them in sync.
 
 import IconExternalLink from '@theme/Icon/ExternalLink';
 
-#### Image metadata parsing library (PHP 5.5+)
+**Image metadata parsing library (PHP 5.5+)**
 
 :::note
 

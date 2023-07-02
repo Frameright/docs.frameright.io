@@ -20,7 +20,7 @@ WARNINGS:
 
 import IconExternalLink from '@theme/Icon/ExternalLink';
 
-#### Image Display Control metadata parsing library
+**Image Display Control metadata parsing library**
 
 An easy way to retrieve [Image Display Control](https://frameright.io) metadata
 out of images.

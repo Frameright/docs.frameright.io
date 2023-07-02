@@ -20,7 +20,7 @@ WARNINGS:
 
 import IconExternalLink from '@theme/Icon/ExternalLink';
 
-#### `<img is="image-display-control">`
+**`<img is="image-display-control">`**
 
 An easy way to do [Image Display Control](https://frameright.io) in your HTML
 page.
