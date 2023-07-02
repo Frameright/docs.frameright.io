@@ -18,6 +18,8 @@
 
   --ifm-link-color: #4020c0;
   --ifm-footer-link-hover-color: #aaaadd;
+
+  --app-border-radius: 0.3em;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -53,6 +55,28 @@
 .sidebar-external-link svg {
   width: 0.85em;
   height: 0.85em;
+}
+
+/* If screen is large enough, i.e. not on mobile, let's overlay the image on
+   the bottom-right corner of the code block. */
+@media (min-width: 500px) {
+  .code-with-illustration {
+    position: relative;
+  }
+
+  .code-with-illustration > img {
+    position: absolute;
+    bottom: 0.6em;
+    right: 0.6em;
+    z-index: 10;
+
+    height: 7em;
+  }
+}
+@media (min-width: 1500px) {
+  .code-with-illustration > img {
+    height: 10em;
+  }
 }
 
 /* Hide the default pencil icon and replace it with a GitHub icon */
@@ -107,7 +131,7 @@ span.react-idc-demo > span {
  */
 .react-idc-demo span[data-idc-parent] {
   display: block;
-  border-radius: 0.3em;
+  border-radius: var(--app-border-radius);
   transition: all 0.5s ease;
 }
 

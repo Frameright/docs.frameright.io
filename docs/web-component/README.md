@@ -41,16 +41,24 @@ offer nowadays is to use the
 [`object-fit: cover;`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
 CSS property in order to scale and middle-crop it:
 
-<img src="/img/web-component/middlecrop.png" align="right" />
+<!-- prettier-ignore-start -->
+
+<div className="code-with-illustration">
 
 ```html
 <img
   src="https://images.pexels.com/photos/3625715/pexels-photo-3625715.jpeg"
+
   width="200"
   height="200"
   style="object-fit: cover;"
 />
 ```
+
+<img src="/img/web-component/middlecrop.png" />
+</div>
+
+<!-- prettier-ignore-end -->
 
 This is less than optimal, as there might be, in the example above, a better
 square-ish region in the image that could be displayed instead of the
@@ -61,7 +69,7 @@ middle-crop.
 This web component extends the `<img>` tag with the ability to accept a list of
 image regions, and to zoom in on the best one for the current element size:
 
-<img src="/img/web-component/oneanimal.png" align="right" />
+<div className="code-with-illustration">
 
 ```html
 <img
@@ -90,6 +98,9 @@ image regions, and to zoom in on the best one for the current element size:
   }]'
 />
 ```
+
+<img src="/img/web-component/oneanimal.png" />
+</div>
 
 The resulting HTML element is responsive and will automatically reassess the
 best region to zoom in on when it gets resized, e.g. when the user turns their

@@ -58,16 +58,24 @@ offer nowadays is to use the
 [`object-fit: cover;`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
 CSS property in order to scale and middle-crop it:
 
-<img src="/img/ekroos/skater_middlecrop.png" align="right" />
+<!-- prettier-ignore-start -->
+
+<div className="code-with-illustration">
 
 ```html
 <img
   src="https://react.frameright.io/assets/pics/skater.jpg"
+
   width="200"
   height="200"
   style="object-fit: cover;"
 />
 ```
+
+<img src="/img/ekroos/skater_middlecrop.png" />
+</div>
+
+<!-- prettier-ignore-end -->
 
 This is less than optimal, as there might be, in the example above, a better
 square-ish region in the image that could be displayed instead of the
@@ -79,17 +87,25 @@ This React component extends its `<img>`-like children with the ability to
 retrieve image regions from their image metadata, and to zoom in on the best one
 for the current element size:
 
-<img src="/img/ekroos/skater_withidc.png" align="right" />
+<!-- prettier-ignore-start -->
+
+<div className="code-with-illustration">
 
 ```html
 <ImageDisplayControl>
   <img
     src="https://react.frameright.io/assets/pics/skater.jpg"
+
     width="200"
     height="200"
   />
 </ImageDisplayControl>
 ```
+
+<!-- prettier-ignore-end -->
+
+<img src="/img/ekroos/skater_withidc.png" />
+</div>
 
 The resulting HTML element is responsive and will automatically reassess the
 best region to zoom in on when it gets resized, e.g. when the user turns their
