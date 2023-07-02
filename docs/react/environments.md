@@ -6,6 +6,10 @@ tags:
 
 # Supported environments
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/react-image-display-control" />
+
 ## Supported web frameworks
 
 Any Node.js-based, React-based bundled environment, with or without

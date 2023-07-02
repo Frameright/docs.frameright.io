@@ -6,6 +6,10 @@ tags:
 
 # Usage
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/react-image-display-control" />
+
 A simple demo is available in [`example/`](example.md). A more comprehensive
 example could look like this:
 

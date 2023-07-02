@@ -6,6 +6,10 @@ tags:
 
 # Contributing
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/php-image-metadata-parser" />
+
 ## Validating
 
 Run the linter and the unit tests with:

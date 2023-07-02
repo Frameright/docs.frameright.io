@@ -6,6 +6,10 @@ tags:
 
 # CSS styling
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/image-display-control-web-component" />
+
 The usual ways of styling an `<img>` element are supported, e.g. `width:`,
 `border:`, `padding:`, etc. However the following CSS properties have now
 limitations.

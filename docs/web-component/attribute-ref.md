@@ -6,6 +6,10 @@ tags:
 
 # Attribute reference
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/image-display-control-web-component" />
+
 For a more high-level overview of the attributes, see the
 [HTML attributes](html-attrs.md) page.
 

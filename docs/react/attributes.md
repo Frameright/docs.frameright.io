@@ -6,6 +6,10 @@ tags:
 
 # HTML attributes and React properties
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/react-image-display-control" />
+
 Attributes and properties can be set at three different levels:
 
 ```jsx

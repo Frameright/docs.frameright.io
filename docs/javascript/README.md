@@ -19,6 +19,9 @@ WARNINGS:
 -->
 
 import IconExternalLink from '@theme/Icon/ExternalLink';
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/image-display-control-metadata-parser" />
 
 **Image Display Control metadata parsing library**
 

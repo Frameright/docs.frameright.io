@@ -19,6 +19,9 @@ WARNINGS:
 -->
 
 import IconExternalLink from '@theme/Icon/ExternalLink';
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/image-display-control-web-component" />
 
 **`<img is="image-display-control">`**
 

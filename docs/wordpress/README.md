@@ -15,6 +15,10 @@ WARNING: Bits of information here are duplicated in several places:
 Make sure to keep them in sync.
 -->
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/image-display-control-wordpress" />
+
 An easy way to leverage image region metadata on your site.
 
 ## Which image metadata?

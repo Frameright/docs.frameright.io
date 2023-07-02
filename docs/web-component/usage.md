@@ -6,6 +6,10 @@ tags:
 
 # Usage
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/image-display-control-web-component" />
+
 A comprehensive demo is available under [`demo/`](demo.md), covering various
 aspects of the web component. A typical example could look like this:
 

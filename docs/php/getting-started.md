@@ -6,6 +6,10 @@ tags:
 
 # Getting Started
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/php-image-metadata-parser" />
+
 ## Supported image formats
 
 Currently the library supports JPEG and PNG.

@@ -7,6 +7,10 @@ pagination_next: null
 
 # Changelog
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/image-display-control-web-component" />
+
 ### 1.1.7 (2023-07-02)
 
 - Fixed crash when using [`data-debug-draw-regions="on"`](attribute-ref.md) in

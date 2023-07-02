@@ -57,6 +57,26 @@
   height: 0.85em;
 }
 
+/* Ancestor of .github-corner-icon */
+article {
+  position: relative;
+}
+
+.github-corner-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 2em;
+  height: 2em;
+}
+
+@media (max-width: 1200px) {
+  .github-corner-icon {
+    visibility: hidden;
+  }
+}
+
 /* If screen is large enough, i.e. not on mobile, let's overlay the image on
    the bottom-right corner of the code block. */
 @media (min-width: 500px) {

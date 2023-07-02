@@ -15,6 +15,9 @@ Make sure to keep them in sync.
 -->
 
 import IconExternalLink from '@theme/Icon/ExternalLink';
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/php-image-metadata-parser" />
 
 **Image metadata parsing library (PHP 5.5+)**
 

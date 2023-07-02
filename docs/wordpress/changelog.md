@@ -13,6 +13,10 @@ WARNING: Bits of information here are duplicated in several places:
 Make sure to keep them in sync.
 -->
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/image-display-control-wordpress" />
+
 ### 1.0.0 (2023-06-28)
 
 - Moved documentation to https://docs.frameright.io/wordpress

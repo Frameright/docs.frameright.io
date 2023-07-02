@@ -14,6 +14,10 @@ WARNING: Bits of information here are duplicated in several places:
 Make sure to keep them in sync.
 -->
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/image-display-control-wordpress" />
+
 - [Frameright/php-image-metadata-parser](../php/README.md),
   based on [dchesterton/image](https://github.com/dchesterton/image), an image
   metadata parsing library. Many thanks to

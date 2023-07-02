@@ -6,6 +6,10 @@ tags:
 
 # Browser support
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/image-display-control-web-component" />
+
 ## Overview
 
 The web component relies on a few browser features, the most recently

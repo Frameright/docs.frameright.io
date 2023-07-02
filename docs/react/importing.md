@@ -6,6 +6,10 @@ tags:
 
 # Importing in your project
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/react-image-display-control" />
+
 ## Inside a Node.js-based project
 
 You can add the React component to your Node.js-based project (e.g. using

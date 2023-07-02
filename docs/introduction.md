@@ -7,6 +7,9 @@ tags:
 # Introduction
 
 import { ReactIdcDemo } from '@site/src/components/reactIdcDemo';
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/docs.frameright.io" />
 
 Nowadays images (e.g. JPEG, PNG) can contain regions in their metadata following
 [this standard](https://iptc.org/std/photometadata/specification/IPTC-PhotoMetadata#image-region).

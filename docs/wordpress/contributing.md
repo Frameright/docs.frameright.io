@@ -6,6 +6,10 @@ tags:
 
 # Contributing
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/image-display-control-wordpress" />
+
 ## Code formatting
 
 Pull and run [prettier](https://github.com/prettier/plugin-php) with:

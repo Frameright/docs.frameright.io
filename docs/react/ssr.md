@@ -6,6 +6,10 @@ tags:
 
 # Server-side rendering and static site generation
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/react-image-display-control" />
+
 If your environment supports it, React will not only render the component in the
 browser but also:
 

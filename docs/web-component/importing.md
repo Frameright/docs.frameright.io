@@ -6,6 +6,10 @@ tags:
 
 # Importing in your project
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/image-display-control-web-component" />
+
 ## From a CDN
 
 If you just want to quickly try out the web component, you can get it from a

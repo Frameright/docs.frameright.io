@@ -6,6 +6,10 @@ tags:
 
 # Changelog
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/react-image-display-control" />
+
 ### 1.0.5 (2023-07-02)
 
 - Fixed crash when using

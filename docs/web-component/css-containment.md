@@ -6,6 +6,10 @@ tags:
 
 # CSS containment
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/image-display-control-web-component" />
+
 [CSS containment](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Containment)
 is a set of browser features allowing web developers to indicate that an element
 and its contents are, as much as possible, independent of the rest of the

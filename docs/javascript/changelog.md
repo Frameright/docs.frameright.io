@@ -7,6 +7,10 @@ pagination_next: null
 
 # Changelog
 
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/image-display-control-metadata-parser" />
+
 ### 1.1.1 (2023-06-28)
 
 - Moved documentation to https://docs.frameright.io/javascript

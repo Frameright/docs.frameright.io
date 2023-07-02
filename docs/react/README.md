@@ -19,6 +19,9 @@ WARNINGS:
 -->
 
 import IconExternalLink from '@theme/Icon/ExternalLink';
+import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
+
+<GitHubCornerIcon href="https://github.com/Frameright/react-image-display-control" />
 
 An easy way to do [Image Display Control](https://frameright.io) in your React
 web app.
