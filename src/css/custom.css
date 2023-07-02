@@ -32,6 +32,10 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+.homepage-feature {
+  margin-bottom: 2em;
+}
+
 .footer {
   background-color: var(--ifm-color-primary);
 }
