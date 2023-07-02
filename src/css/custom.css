@@ -98,6 +98,8 @@ span.react-idc-demo > span {
  * elements inside a <p>. But here we're just using <p> in order to have a
  * standard paragraph margin under the demo, and we need a "display: block;"
  * for the demo. This should be fine.
+ *
+ * See also https://www.w3.org/TR/html401/struct/text.html#h-9.3.1
  */
 .react-idc-demo span[data-idc-parent] {
   display: block;

@@ -16,63 +16,34 @@ export function ReactIdcDemo({ animated }) {
   const [idcStyle, setIdcStyle] = React.useState(
     animated ? initialAnimatedIdcStyle : initialUnanimatedIdcStyle
   );
-  const [avoidNoRegion, setAvoidNoRegion] = React.useState('off');
-  const [debug, setDebug] = React.useState('on');
 
   React.useEffect(() => {
-    if (!animated) return;
+    let disconnected = false;
 
-    setAvoidNoRegion('on');
     (async () => {
-      const firstStep = {
-        ...initialAnimatedIdcStyle,
-        debug: 'off',
-      };
       const steps = [
-        firstStep,
+        initialAnimatedIdcStyle,
         {
           width: '33%',
           aspectRatio: '1 / 2',
-          debug: 'off',
         },
-        firstStep,
+        initialAnimatedIdcStyle,
         {
           width: '100%',
           aspectRatio: '3 / 1',
-          debug: 'off',
-        },
-        {
-          width: '33%',
-          aspectRatio: '1 / 1',
-          debug: 'on',
-        },
-        {
-          width: '33%',
-          aspectRatio: '1 / 2',
-          debug: 'on',
-        },
-        {
-          width: '33%',
-          aspectRatio: '1 / 1',
-          debug: 'on',
-        },
-        {
-          width: '100%',
-          aspectRatio: '3 / 1',
-          debug: 'on',
         },
       ];
-      while (animated) {
-        const nextStep = steps.shift() || firstStep;
+      while (animated && !disconnected) {
+        const nextStep = steps.shift() || initialAnimatedIdcStyle;
         steps.push(nextStep);
-        setIdcStyle({
-          width: nextStep.width,
-          aspectRatio: nextStep.aspectRatio,
-        });
-        setDebug(nextStep.debug);
+        setIdcStyle(nextStep);
         await new Promise((resolve) => setTimeout(resolve, 1000));
       }
     })();
+
+    return () => {
+      disconnected = true;
+    };
   }, []);
 
   return (
@@ -85,8 +56,8 @@ export function ReactIdcDemo({ animated }) {
               srcSet="/img/ekroos/skater_highres.jpg  4000w,
                     /img/ekroos/skater.jpg          1500w"
               sizes="(max-width: 4000px) 100vw, 1500px"
-              data-avoid-no-region={avoidNoRegion}
-              data-debug-draw-regions={debug}
+              data-avoid-no-region={animated ? 'on ' : 'off'}
+              data-debug-draw-regions={animated ? 'off' : 'on'}
             />
           </ImageDisplayControl>
         </span>
