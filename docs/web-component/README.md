@@ -28,6 +28,8 @@ import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
 An easy way to do [Image Display Control](https://frameright.io) in your HTML
 page.
 
+&emsp; :sparkles: [Live demo<IconExternalLink />](https://webc.frameright.io)
+
 :::info
 
 If you are using React, you may want to have a look at the
@@ -109,7 +111,7 @@ The resulting HTML element is responsive and will automatically reassess the
 best region to zoom in on when it gets resized, e.g. when the user turns their
 phone from portrait to landscape.
 
-&emsp; :sparkles: [Live mobile demo<IconExternalLink />](https://webc.frameright.io)
+&emsp; :sparkles: [Live demo<IconExternalLink />](https://webc.frameright.io)
 
 &emsp; 💻 [CodeSandbox<IconExternalLink />](https://codesandbox.io/s/image-display-control-web-component-6hzmq5)
 

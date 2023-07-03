@@ -1,7 +1,7 @@
 ---
 sidebar_position: 220
 href: https://react.frameright.io
-title: Live mobile demo
+title: Live demo
 slug: _live-demo
 sidebar_class_name: sidebar-external-link
 pagination_prev: null

@@ -26,6 +26,8 @@ import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
 An easy way to do [Image Display Control](https://frameright.io) in your React
 web app.
 
+&emsp; :sparkles: [Live demo<IconExternalLink />](https://react.frameright.io)
+
 ## Overview
 
 This React component extends any `<img>`-like element/component with the ability
@@ -171,6 +173,6 @@ Other `<img>`-like elements/components are supported as well, e.g.
 [Next.js `<Image>`s](https://nextjs.org/docs/api-reference/next/image) or
 [React-Bootstrap `<Image>`s](https://react-bootstrap.github.io/components/images/).
 
-&emsp; :sparkles: [Live mobile demo<IconExternalLink />](https://react.frameright.io)
+&emsp; :sparkles: [Live demo<IconExternalLink />](https://react.frameright.io)
 
 &emsp; 💻 [CodeSandbox<IconExternalLink />](https://codesandbox.io/s/image-display-control-react-component-m6qj9r)

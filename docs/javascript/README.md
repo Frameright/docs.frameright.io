@@ -28,6 +28,8 @@ import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
 An easy way to retrieve [Image Display Control](https://frameright.io) metadata
 out of images.
 
+&emsp; :sparkles: [Live demo<IconExternalLink />](https://webc.frameright.io)
+
 :::note
 
 This is a wrapper around
@@ -151,7 +153,7 @@ The parsed metadata can then directly be fed to the
 [This React component](https://github.com/Frameright/react-image-display-control/blob/main/src/index.tsx)
 is an example of doing that.
 
-&emsp; :sparkles: [Live mobile demo<IconExternalLink />](https://webc.frameright.io)
+&emsp; :sparkles: [Live demo<IconExternalLink />](https://webc.frameright.io)
 
 &emsp; 💻 [CodeSandbox<IconExternalLink />](https://codesandbox.io/s/image-display-control-web-component-6hzmq5)
 
