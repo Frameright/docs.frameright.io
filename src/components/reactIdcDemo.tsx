@@ -54,7 +54,7 @@ export function ReactIdcDemo({ animated }) {
             <img
               src="/img/ekroos/skater.jpg"
               srcSet="/img/ekroos/skater_highres.jpg  4000w,
-                    /img/ekroos/skater.jpg          1500w"
+                      /img/ekroos/skater.jpg          1500w"
               sizes="(max-width: 4000px) 100vw, 1500px"
               data-avoid-no-region={animated ? 'on ' : 'off'}
               data-debug-draw-regions={animated ? 'off' : 'on'}

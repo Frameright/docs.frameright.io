@@ -166,3 +166,8 @@ span.react-idc-demo > span {
   height: 100%;
   vertical-align: bottom;
 }
+
+.react-idc-demo-caption {
+  font-size: 0.9em;
+  font-style: italic;
+}

@@ -6,6 +6,8 @@ tags:
 
 # Introduction
 
+import Link from '@docusaurus/Link';
+import IconExternalLink from '@theme/Icon/ExternalLink';
 import { ReactIdcDemo } from '@site/src/components/reactIdcDemo';
 import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
 
@@ -28,7 +30,15 @@ various versions of the same image for different ratios anymore, to write the
 boilerplate code tying everything together, or to worry about all possible
 device sizes.
 
-<p className="react-idc-demo"><ReactIdcDemo animated /></p>
+<p className="react-idc-demo">
+  <ReactIdcDemo animated /><br />
+  <span className="react-idc-demo-caption">
+    React component in action ▲{' '}
+    <Link href="https://github.com/Frameright/docs.frameright.io/blob/main/src/components/reactIdcDemo.tsx">
+      Source code<IconExternalLink />
+    </Link>
+  </span>
+</p>
 
 If you are developing a **React** web app, see our
 [React component](react/README.md). Have a look at the
