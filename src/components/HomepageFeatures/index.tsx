@@ -5,40 +5,60 @@ import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
 type FeatureItem = {
-  title: string;
+  title: JSX.Element;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Define regions in your images',
-    Svg: require('@site/static/img/frameright/feature_crop.svg').default,
-    description: (
+    title: (
       <>
-        Use the <Link href="https://frameright.app">Frameright webapp</Link> to
-        define regions in your images' metadata.
+        Learn more about
+        <br />
+        Image Display Control
       </>
     ),
-  },
-  {
-    title: 'Add our components to your websites',
-    Svg: require('@site/static/img/frameright/feature_stack.svg').default,
-    description: (
-      <>
-        Our components extend <code>&lt;img&gt;</code>-like elements to
-        responsively display the best fitting region based on the current
-        element size and ratio.
-      </>
-    ),
-  },
-  {
-    title: 'Stop caring',
     Svg: require('@site/static/img/frameright/feature_graph.svg').default,
     description: (
       <>
-        Stop caring about where your images end up in your responsive layout and
-        which ratio they get.
+        Read about the philosophy behind Image Display Control and the benefits
+        it brings to developers, creators and businesses at{' '}
+        <Link href="https://frameright.io">frameright.io</Link>
+      </>
+    ),
+  },
+  {
+    title: (
+      <>
+        Get started with IDC
+        <br />
+        components and libraries
+      </>
+    ),
+    Svg: require('@site/static/img/frameright/feature_stack.svg').default,
+    description: (
+      <>
+        Learn more about the open-source components and libraries for different
+        platforms and languages on the frontend and backend at{' '}
+        <Link to="/introduction">docs.frameright.io</Link>
+      </>
+    ),
+  },
+  {
+    title: (
+      <>
+        Create images with
+        <br />
+        IDC metadata
+      </>
+    ),
+    Svg: require('@site/static/img/frameright/feature_crop.svg').default,
+    description: (
+      <>
+        Make your images magically adapt to all environments and containers by
+        adding IDC metadata to them for free at{' '}
+        <Link href="https://frameright.app">frameright.app</Link>
       </>
     ),
   },
