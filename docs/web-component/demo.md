@@ -23,7 +23,7 @@ If you haven't already, check out the source code before proceeding:
 
 ```bash
 git clone https://github.com/Frameright/image-display-control-web-component
-cd image-display-control-web-component/
+cd image-display-control-web-component/image-display-control/
 ```
 
 :::
