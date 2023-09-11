@@ -56,7 +56,16 @@ This WordPress plugin reads such _Image Regions_ in order to automatically crop
 images the best possible way, depending on which container they are being
 displayed in.
 
-[![Youtube](https://img.youtube.com/vi/vlyoAPku_NU/0.jpg)](https://www.youtube.com/watch?v=vlyoAPku_NU 'Youtube')
+<div className="youtube-embed">
+  <iframe
+    className="youtube-embed"
+    src="https://www.youtube.com/embed/vlyoAPku_NU"
+    title="YouTube video player" frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+  >
+  </iframe>
+</div>
 
 ## How does it work?
 

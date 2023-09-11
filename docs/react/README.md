@@ -116,6 +116,17 @@ The resulting HTML element is responsive and will automatically reassess the
 best region to zoom in on when it gets resized, e.g. when the user turns their
 phone from portrait to landscape.
 
+<div className="youtube-embed">
+  <iframe
+    className="youtube-embed"
+    src="https://www.youtube.com/embed/UsBtRSyY-7c"
+    title="YouTube video player" frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+  >
+  </iframe>
+</div>
+
 ## Image Display Control metadata
 
 Nowadays an image file (e.g. JPEG, PNG) can contain this type of image regions

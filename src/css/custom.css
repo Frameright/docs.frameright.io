@@ -130,10 +130,24 @@ p.react-idc-demo {
   text-align: center;
 }
 
+p.react-idc-demo > span.react-idc-demo,
+div.youtube-embed > iframe {
+  width: min(100%, max(50%, 330px));
+}
+
 p.react-idc-demo > span.react-idc-demo {
   display: inline-block;
-  width: min(100%, max(50%, 330px));
   aspect-ratio: 3 / 2;
+}
+
+div.youtube-embed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.youtube-embed > iframe {
+  aspect-ratio: 16 / 9;
 }
 
 span.react-idc-demo > span {
