@@ -11,6 +11,11 @@ import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
 
 <GitHubCornerIcon href="https://github.com/Frameright/php-image-metadata-parser" />
 
+### 1.1.0 (2023-10-09)
+
+- Extended `$image->getXmp()->getImageRegions()` and `$image->getIDCMetadata()` to return
+  Frameright-specific properties `regionDefinitionId` and `regionName`.
+
 ### 1.0.1 (2023-06-28)
 
 - Moved documentation to https://docs.frameright.io/php
