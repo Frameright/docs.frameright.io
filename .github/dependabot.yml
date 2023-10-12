@@ -15,6 +15,10 @@ updates:
         update-types: ['version-update:semver-major']
       - dependency-name: 'react-dom'
         update-types: ['version-update:semver-major']
+      # Docusaurus 2.4.3 fails to build the docs with @mdx-js/react 2.3.0:
+      #   TypeError: (0 , _mdx_js_react.mdx) is not a function
+      - dependency-name: '@mdx-js/react'
+        update-types: ['version-update:semver-major']
 
     # Do not get one pull request per version bump. Instead get one pull request
     # bumping several dependency versions at once:
