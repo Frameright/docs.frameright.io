@@ -6,13 +6,19 @@ updates:
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
-      interval: 'daily'
+      interval: 'weekly'
     commit-message:
       prefix: 'chore: '
+    ignore:
+      # @docusaurus/core 2.4.3 doesn't support React 18 yet
+      - dependency-name: 'react'
+        update-types: ['version-update:semver-major']
+      - dependency-name: 'react-dom'
+        update-types: ['version-update:semver-major']
 
     # Do not get one pull request per version bump. Instead get one pull request
     # bumping several dependency versions at once:
-    # groups:
-    #   all-deps:
-    #     patterns:
-    #       - '*'
+    groups:
+      all-deps:
+        patterns:
+          - '*'
