@@ -19,6 +19,13 @@ updates:
       #   TypeError: (0 , _mdx_js_react.mdx) is not a function
       - dependency-name: '@mdx-js/react'
         update-types: ['version-update:semver-major']
+      # Code syntax highlighting with Prism doesn't work with Docusaurus 3:
+      - dependency-name: '@docusaurus/core'
+        update-types: ['version-update:semver-major']
+      - dependency-name: '@docusaurus/preset-classic'
+        update-types: ['version-update:semver-major']
+      - dependency-name: '@docusaurus/module-type-aliases'
+        update-types: ['version-update:semver-major']
 
     # Do not get one pull request per version bump. Instead get one pull request
     # bumping several dependency versions at once:
