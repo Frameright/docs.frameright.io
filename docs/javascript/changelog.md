@@ -11,6 +11,13 @@ import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
 
 <GitHubCornerIcon href="https://github.com/Frameright/image-display-control-metadata-parser" />
 
+### 1.2.0 (2023-12-07)
+
+- Added two more fields to
+  [`ImageRegion`](https://github.com/Frameright/image-display-control-metadata-parser/blob/main/generated-docs/classes/ImageRegion.md):
+  `idcRegionDefinitionId` and `idcRegionDefinitionName`. See
+  [#25](https://github.com/Frameright/image-display-control-metadata-parser/pull/25)
+
 ### 1.1.1 (2023-06-28)
 
 - Moved documentation to https://docs.frameright.io/javascript
