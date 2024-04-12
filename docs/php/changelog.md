@@ -11,6 +11,12 @@ import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
 
 <GitHubCornerIcon href="https://github.com/Frameright/php-image-metadata-parser" />
 
+### 1.1.2 (2024-04-12)
+
+- Support parsing images with multiple `<rdf:Description>` elements.
+  ([#25](https://github.com/Frameright/php-image-metadata-parser/issues/25),
+  [aec9c1279d](https://github.com/Frameright/php-image-metadata-parser/commit/aec9c1279d))
+
 ### 1.1.1 (2024-02-01)
 
 - Support parsing images opened and re-saved with Photoshop.
