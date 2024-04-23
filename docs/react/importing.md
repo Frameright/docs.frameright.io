@@ -19,6 +19,8 @@ You can add the React component to your Node.js-based project (e.g. using
 npm install @frameright/react-image-display-control
 ```
 
+> **Less than 5kB in your final client-side bundle.**
+
 No matter whether your code is intended to run in the browser, during
 [server-side rendering](ssr.md) or at build time for building static pages, you
 can import the React component anywhere with:
@@ -30,7 +32,7 @@ import '@frameright/react-image-display-control';
 ### Inside a Next.js project
 
 As a workaround for
-[this issue](https://github.com/Frameright/image-display-control-metadata-parser/issues/3),
+["Module not found: Can't resolve 'fs' in Next.js application"](https://stackoverflow.com/questions/64926174/module-not-found-cant-resolve-fs-in-next-js-application),
 you need to set `config.resolve.fallback = { fs: false };` in your
 `next.config.js` in order to be able to import the React component. Your file
 should look like this:
@@ -45,6 +47,3 @@ module.exports = {
 ```
 
 Create it if it doesn't exist yet in your project.
-
-See also this StackOverflow question:
-[Module not found: Can't resolve 'fs' in Next.js application](https://stackoverflow.com/questions/64926174/module-not-found-cant-resolve-fs-in-next-js-application)

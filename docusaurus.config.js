@@ -224,7 +224,7 @@ const config = {
     }),
 
   // FIXME workaround for
-  // https://github.com/Frameright/image-display-control-metadata-parser/issues/3
+  // https://stackoverflow.com/questions/64926174/module-not-found-cant-resolve-fs-in-next-js-application
   //
   // See https://gist.github.com/sibelius/24f63eef7f43b15dc73c4a0be11bbef8
   plugins: [require.resolve('./customWebpackConfig')],

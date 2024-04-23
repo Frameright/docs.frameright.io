@@ -4,11 +4,8 @@ module.exports = function (context, options) {
     configureWebpack(config, isServer, utils) {
       return {
         resolve: {
-          // FIXME workaround for
-          // https://github.com/Frameright/image-display-control-metadata-parser/issues/3
-          alias: {
-            path: require.resolve('path-browserify'),
-          },
+          // Workaround for
+          // https://stackoverflow.com/questions/64926174/module-not-found-cant-resolve-fs-in-next-js-application
           fallback: {
             fs: false,
           },

@@ -151,6 +151,8 @@ In your Node.js (e.g. using [Next.js](https://nextjs.org/) or
 npm install @frameright/react-image-display-control
 ```
 
+> **Less than 5kB in your final client-side bundle.**
+
 &emsp; :floppy_disk: [Importing in your project](importing.md)
 
 ## Usage

@@ -33,8 +33,8 @@ export function MyApp() {
       <ImageDisplayControl data-debug>
         <img
           id="external-img-without-ssr"
-          src="https://webc.frameright.io/assets/pics/birds.jpg"
-          alt="Birds"
+          src="https://webc.frameright.io/assets/pics/skater2.jpg"
+          alt="Skater"
           className="first-image"
           width="200"
           height="200"

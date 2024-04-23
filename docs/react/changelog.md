@@ -10,6 +10,12 @@ import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
 
 <GitHubCornerIcon href="https://github.com/Frameright/react-image-display-control" />
 
+### 1.0.6 (2024-04-23)
+
+- Slightly reduced library size by pinning [v2 of the metadata parser](../javascript/changelog).
+  ([parser#3](https://github.com/Frameright/image-display-control-metadata-parser/issues/3),
+  [8131ae84ba](https://github.com/Frameright/react-image-display-control/commit/8131ae84ba))
+
 ### 1.0.5 (2023-07-02)
 
 - Fixed crash when using
