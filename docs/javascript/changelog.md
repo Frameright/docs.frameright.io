@@ -11,6 +11,13 @@ import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
 
 <GitHubCornerIcon href="https://github.com/Frameright/image-display-control-metadata-parser" />
 
+### 2.0.0 (2024-04-23)
+
+- Reduced library size by 33% by not shipping node polyfills anymore, thanks to
+  `image-size@2`. This also simplifies the way the library is consumed.
+  ([#3](https://github.com/Frameright/image-display-control-metadata-parser/issues/3),
+  [d75aaf6194](https://github.com/Frameright/image-display-control-metadata-parser/commit/d75aaf6194))
+
 ### 1.2.0 (2023-12-07)
 
 - Added two more fields to
