@@ -176,6 +176,8 @@ project with:
 npm install @frameright/image-display-control-web-component
 ```
 
+> **Less than 20kB in your final client-side bundle.**
+
 or get it from a
 [CDN](https://cdn.jsdelivr.net/npm/@frameright/image-display-control-web-component/):
 

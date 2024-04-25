@@ -82,6 +82,8 @@ project with:
 npm install @frameright/image-display-control-web-component
 ```
 
+> **Less than 20kB in your final client-side bundle.**
+
 and then import it in your front-end code with:
 
 ```js
