@@ -10,6 +10,11 @@ import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
 
 <GitHubCornerIcon href="https://github.com/Frameright/react-image-display-control" />
 
+### 1.0.7 (2024-04-29)
+
+- Fixed missing dependency to `tslib`.
+  ([cdd2217268](https://github.com/Frameright/react-image-display-control/commit/cdd2217268))
+
 ### 1.0.6 (2024-04-23)
 
 - Slightly reduced library size by pinning [v2 of the metadata parser](../javascript/changelog).
