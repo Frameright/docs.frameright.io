@@ -11,6 +11,12 @@ import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
 
 <GitHubCornerIcon href="https://github.com/Frameright/php-image-metadata-parser" />
 
+### 1.1.3 (2024-11-15)
+
+- Fix infinite recursion when calling `Image::fromString()` with a PNG.
+  ([#30](https://github.com/Frameright/php-image-metadata-parser/issues/30),
+  [#31](https://github.com/Frameright/php-image-metadata-parser/pull/31))
+
 ### 1.1.2 (2024-04-12)
 
 - Support parsing images with multiple `<rdf:Description>` elements.
