@@ -11,6 +11,11 @@ import { GitHubCornerIcon } from '@site/src/components/githubCornerIcon';
 
 <GitHubCornerIcon href="https://github.com/Frameright/php-image-metadata-parser" />
 
+### 1.2.0 (2025-06-15)
+
+- Add `ImageMetadataBuffer` helper for partial‐file XMP buffering.
+  ([#33](https://github.com/Frameright/php-image-metadata-parser/pull/33))
+
 ### 1.1.3 (2024-11-15)
 
 - Fix infinite recursion when calling `Image::fromString()` with a PNG.
