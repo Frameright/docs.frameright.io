@@ -75,7 +75,7 @@ yet.
 
 :::
 
-Then configure [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
+Then configure [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer)
 to know where to find the WordPress coding standards by running:
 
 ```bash
